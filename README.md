@@ -4,7 +4,7 @@ Donation BACKEND
 
 ---
 
-## Descro[topm
+## Description
 
 This is the backend part of the donation management project. It is divided into two parts. One is for React Frointend API and another is admin panel
 
