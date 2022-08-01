@@ -1,0 +1,406 @@
+<%- include('./partials/header.ejs'); %>
+
+  <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css">
+  <script src="https://unpkg.com/js-datepicker"></script>
+
+  <div class="manageUser-container">
+    <div id="title">
+      <h2>Add Donation</h2>
+    </div>
+
+    <form id="search-container" style="position: relative;">
+      <input type="text" placeholder="search user by name or email or mobile or Serical" name="user" id="user"
+        autocomplete="off" style="width: auto;" />
+      <p class="error"></p>
+      <div class="search_users" style="top:50"></div>
+      <input type="submit" value="Submit" class="hide" />
+    </form>
+
+    <% if(user){ %>
+      <div class="usrcontainer">
+        <div class="leftUsrBlk">
+
+          <img style="max-width: 150px;" src="./uploads/ppimg/<%= user.serial %>.jpg" />
+        </div>
+        <div class="rightUsrBlk usrBlock">
+
+
+
+          <h2>Details of: <%= user.serial %>
+          </h2>
+          <hr />
+          <h3>Name: <%= user.name %>
+          </h3>
+
+          <h4>Phone: <%= user.mobile %>
+          </h4>
+          <h4>Address: <%= user.currentaddress %>
+          </h4>
+
+
+
+
+        </div>
+      
+      </div>
+
+      <div class="usrBlock">
+        <% if(lastDonation){ %>
+          <h4>Donation Till: <%= lastDonation.paymentdone.toLocaleDateString(); %>
+          </h4>
+
+          <h4>Donation Status: <span id=dueMonth></span> </h4>
+          <h4>Total Donation: <%= donation[0]['totalAmount'] %>TK. </h4>
+          <% }else { %>
+
+            <h4>No Donation made yet</h4>
+            <% } %>
+      </div>
+      <% } %>
+      <div class="invoicform">
+
+
+        <h2>Add Donation</h2>
+
+        <hr />
+
+        <form method="post" action="/invoice/adddonation" enctype='application/x-www-form-urlencoded' )
+          id="invoiceForm">
+
+          <% if (user) { %>
+            <input type="hidden" placeholder="Serial" value="<%=  user._id %>" id="member_id" name="member_id" />
+            <p class="error member_id-error"></p>
+            <% } %>
+
+              <input type="text" placeholder="Donation Amount " value="" name="payment" />
+              <p class="error payment-error"></p>
+
+              <select id="paymenttype" name="paymenttype">
+                <option value="Monthly">Monthly</option>
+                <option value="Event">Event</option>
+                <option value="Donation">Donation</option>
+                <option value="Other">Other</option>
+              </select>
+              <p class="error paymenttype-error"></p>
+
+              <input class="singleDatpicker" name="paymentdone" value="" type="text">
+              <p class="error paymentdone-error"></p>
+              <input type="text" placeholder="Comments" value="" name="comments" />
+              <p class="error comments-error"></p>
+
+
+              <p class="error common common-error"></p>
+
+              <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+
+
+
+      <h2>Payment Details</h2>
+
+      <div id="paymentTable" class="tableData">
+        <table>
+          <thead>
+            <tr>
+              <th>Payment</th>
+              <th>Date Completed</th>
+              <th>Payment date</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="users-table3">
+            <% installments.forEach(function(installment) { %>
+              <tr id="<%= installment._id %>">
+
+                <td>
+                  <%= installment.payment %>TK
+                </td>
+                <td>
+                  <%= new Date(installment.paymentdone).toLocaleDateString("en-US"); %>
+                </td>
+                <td>
+                  <%= new Date(installment.createdAt).toLocaleDateString("en-US"); %>
+                </td>
+                <td class="manage">
+                  <img onclick="deleteIns('<%= installment._id %>')" src="./images/trash.png" alt="Delete" />
+                </td>
+              </tr>
+              <% }); %>
+          </tbody>
+        </table>
+
+      </div>
+
+  </div>
+
+  <% if(lastDonation) { %>
+    <script>
+
+      const lastpatmnt = "<%= lastDonation.paymentdone %>";
+
+      if (lastpatmnt != null) {
+        let lastPayment = new Date(lastpatmnt);
+        let currentDate = new Date()
+
+        let dueMonth = lastPayment.getMonth() -
+          currentDate.getMonth() +
+          12 * (lastPayment.getFullYear() - currentDate.getFullYear());
+
+        if (dueMonth < 0) {
+          dueMonth = "You have " + dueMonth + " Months (" + dueMonth * 200 + "TK) Due"
+        } else {
+          dueMonth = "No Due. Your Already paid for +" + dueMonth + " Months"
+        }
+
+        //document.getElementById("dueMonth").textContent(dueMonth)
+        document.getElementById("dueMonth").textContent = dueMonth;
+      }
+
+    </script>
+    <% } %>
+      <script>
+        const form = document.querySelector("#invoiceForm");
+
+        // success toast
+        const successToast = Toastify({
+          text: "User was added successfully! Reloading the list...",
+          duration: 1000,
+        });
+
+
+        // form submit handler
+        form.onsubmit = async function (event) {
+          event.preventDefault();
+
+          // clear errors first
+          const errorPlaceholders = document.querySelectorAll("p.error");
+          for (let i = 0; i < errorPlaceholders.length; i++) {
+            errorPlaceholders[i].style.display = "none";
+          }
+
+          const inputErrors = document.querySelectorAll("input.error");
+          if (inputErrors.length > 0) {
+            for (let j = 0; j < inputErrors.length; j++) {
+              inputErrors[j].classList.remove("error");
+            }
+          }
+
+
+
+          // prepare the form data
+          const formData = new FormData(form);
+
+
+
+          const response = await fetch("/invoice/adddonation/", {
+            method: "POST",
+            body: formData
+          });
+
+          // get response
+          let result = await response.json();
+
+          // handle error and response
+          if (result.errors) {
+
+
+            // errors
+            Object.keys(result.errors).forEach((fieldName) => {
+
+              // add error class to all inputs
+              if (fieldName != 'common') {
+
+                form[fieldName].classList.add("error");
+
+              }
+              const errorPlaceholder = document.querySelector(`.${fieldName}-error`);
+              errorPlaceholder.textContent = result.errors[fieldName].msg;
+              errorPlaceholder.style.display = "block";
+
+            });
+          } else {
+            // success
+            successToast.showToast();
+
+            document.querySelector("p.error").style.display = "none";
+
+            // reload the page after 1 second
+            // reload the page after 1 second
+            setTimeout(() => {
+              location.reload();
+            }, 1000);
+          }
+        };
+
+        // toasts
+        const deleteToast = Toastify({
+          text: "User was deleted successfully!",
+          duration: 3000,
+        });
+
+        const deleteErrorToast = Toastify({
+          text: "Could not delete the user!",
+          duration: 3000,
+        });
+
+        // delete user function
+        async function deleteIns(insId) {
+
+
+          var answer = window.confirm("Are You Sure?");
+          if (!answer) {
+            return false;
+          }
+
+
+
+          let response = await fetch(`/invoice/${insId}`, {
+            method: "DELETE",
+          });
+
+          let result = await response.json();
+
+          if (result.errors) {
+            deleteErrorToast.showToast();
+          } else {
+            deleteToast.showToast();
+            document.getElementById(insId).remove();
+          }
+        }
+
+
+
+        let typingTimer;
+        const doneTypingInterval = 500;
+        const input = document.querySelector("input#user");
+        const conversation_list = document.querySelector("#conversation-list");
+        let users_placeholder = document.querySelector(".search_users");
+
+
+        //on keyup, start the countdown
+        input.addEventListener("keyup", function () {
+          clearTimeout(typingTimer);
+          // reset
+          users_placeholder.style.display = "none";
+
+          if (input.value) {
+            typingTimer = setTimeout(searchUsers, doneTypingInterval); //user is "finished typing," send search request
+          }
+        });
+
+        //on keydown, clear the countdown
+        input.addEventListener("keydown", function () {
+          clearTimeout(typingTimer);
+        });
+
+
+        // send request for search
+        async function searchUsers() {
+          let response = await fetch("/inbox/search", {
+            method: "POST",
+            body: JSON.stringify({
+              user: input.value,
+            }),
+            headers: {
+              "Content-type": "application/json; charset=UTF-8",
+            },
+          });
+
+          // get response
+          let result = await response.json();
+
+          // handle error and response
+          if (result.errors) {
+            const errorplaceholder = document.querySelector("p.error");
+
+
+            errorplaceholder.textContent = result.errors.common.msg;
+            errorplaceholder.style.display = "block";
+          } else {
+            if (result.length > 0) {
+              let generatedHtml = "<ul>";
+              result.forEach((user) => {
+                const avatar = user.serial
+                  ? "./uploads/ppimg/" + user.serial + ".jpg"
+                  : "./images/nophoto.png";
+
+                generatedHtml += `<li>
+              <a href="/invoice?id=${user._id}" class="user">
+                <div class="avatar">
+                  <img src="${avatar}" />
+                </div>
+                <div class="username">${user.name}</div>
+              </a>
+            </li>`;
+              });
+              generatedHtml += "</ul>";
+              users_placeholder.innerHTML = generatedHtml;
+              users_placeholder.style.display = "block";
+            }
+          }
+        }
+
+
+        let userDetails = document.getElementById("userDetails");
+
+        let usersTable = document.getElementById("users-table");
+
+        // get messages of a conversation
+        async function getUser(userid) {
+
+
+          let response = await fetch(`/users/search/${userid}`);
+          const result = await response.json();
+
+          // handle error and response
+          if (result.errors) {
+            const errorplaceholder = document.querySelector("p.error");
+            errorplaceholder.textContent = result.errors.common.msg;
+            errorplaceholder.style.display = "block";
+          } else {
+            if (result.data.user) {
+
+              let generatedHtml = "<ul>";
+
+              const avatar = result.data.user.serial
+                ? "./uploads/ppimg/" + user.serial + ".jpg"
+                : "./images/nophoto.png";
+
+              generatedHtml += `<li>
+              <div class="user">
+                <div class="avatar">
+                  <img src="${avatar}" />
+                </div>
+                <div class="username">${result.data.user.name}</div>
+              </div>
+            </li>`;
+
+              generatedHtml += "</ul>";
+              userDetails.innerHTML = generatedHtml;
+              userDetails.style.display = "block";
+              //  searchUsersDiv.innerHTML = "";
+              users_placeholder.style.display = "none";
+              usersTable.style.display = "none";
+
+            }
+          }
+        }
+        const picker = datepicker('.singleDatpicker', {
+          position: 'tl',
+          formatter: (input, date, instance) => {
+            const value = date.toLocaleDateString()
+            input.value = value // => '1/1/2099'
+          },
+          onSelect: (instance, date) => {
+            // console.log(date)
+            // Do stuff when a date is selected (or unselected) on the calendar.
+            // You have access to the datepicker instance for convenience.
+          }
+        })
+
+      </script>
+      </body>
+
+      </html>

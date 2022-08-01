@@ -1,0 +1,2295 @@
+[{
+  "_id": {
+    "$oid": "62976da51c54ff219f956e49"
+  },
+  "serial": "001",
+  "engname": "Hazi Md. Mossharraf Hossain",
+  "name": "হাজি মোঃ মোশারফ হোসেন",
+  "email": "na",
+  "mobile": "+8801721409453",
+  "password": "$2b$10$9yL3XX6f1qUw/mY9XsM8n.BKLUo0l9kWSybJkfIArXYLRCex3eMrK",
+  "fathersname": "মৃতঃ আঃ ছালাম আকন",
+  "mothersname": "মৃতঃ মোসাঃ সৈয়াদুন নেছা",
+  "dateofbirth": "১০.০৪.১৯৫৭",
+  "occupation": "চাকুরী ( শিক্ষক )",
+  "education": "বি. এ . বি . এড",
+  "nid": "৫৪১৫৪ ১০২৫৫৭৯১",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , কুরুরাইল ডাকঘরঃ মাদারীপুর",
+  "permaaddress": "থানাঃ মাদারীপুর । , জেলাঃ মাদারীপুর ,  গ্রামঃ মিঠাপুর । , ডাকঘরঃ হবিগঞ্জ",
+  "nominee": "স্ত্রী",
+  "position": "Ex President",
+  "avatar": "001-1654091173810.jpg",
+  "role": "user",
+  "status": "Late",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-01T13:46:13.894Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T13:46:13.894Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629776eee146cfff4198189d"
+  },
+  "serial": "003",
+  "engname": "Md. Elias Parvex",
+  "name": "মুহম্মদ ইলিয়াস পারভেজ",
+  "email": "na",
+  "mobile": "+8801716944845",
+  "password": "$2b$10$7K.F/I/8rqClnpRj0DPrMuXWdCpGAkApPXaEFRdA4j5s3W03RaZE2",
+  "fathersname": "মৃতঃ মোঃ নূরুদ্দিন মুন্সি",
+  "mothersname": "মৃত : মোসাঃ মজিদা বেগম",
+  "dateofbirth": "০১.১২.১৯৬৫",
+  "occupation": "চাকুরী",
+  "education": "বি. এ .",
+  "nid": "৫৪২৫৪০৭১০০৭৩৭",
+  "currentaddress": "গ্রামঃ কুরুরাইল ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "permaaddress": "গ্রামঃ পাঁচখোলা , ডাকঘরঃ মাদারীপুর , থানাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "",
+  "avatar": "003-1654093550337.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-01T14:25:50.456Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T14:25:50.456Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62977b0de146cfff419818a2"
+  },
+  "serial": "004",
+  "engname": "Hazi Sheikh Mohammad Alauddin",
+  "name": "হাজি শেখ মোঃ আলাউদ্দিন",
+  "email": "na",
+  "mobile": "+8801731722579",
+  "password": "$2b$10$lJUhRF/xhv1/j54nmhZd5OQz1cSmtpS1uCmpX7U3s3alZnyCCXVY.",
+  "fathersname": "মৃতঃ হাজি মফিজুল ইসলাম",
+  "mothersname": "মৃত : হিরন বিবি",
+  "dateofbirth": "০৪-০৯-১৯৬৭",
+  "occupation": "ব্যবসা",
+  "education": "বি. এ .",
+  "nid": "4625052594",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃদারীপুর",
+  "permaaddress": "স্থায়ী ঠিকানা গ্রামঃ চতুর পাড়া , ডাকঘরঃ মুস্তফা শুরু , থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "মোসাঃ ছালমা আক্তার (স্ত্রী )",
+  "position": "Member",
+  "avatar": "004-1654094605728.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-01T14:43:25.816Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T14:43:25.816Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62977d52e146cfff419818a6"
+  },
+  "serial": "005L",
+  "engname": "Late Md. Abuk Kalam Miah",
+  "name": "মৃতঃ মোঃ আবুল কালাম মিয়া",
+  "email": "na",
+  "mobile": "+8801948070133",
+  "password": "$2b$10$pY58z7GObQwufnpXc52D2.GzYfPVsgaKz/xPu/ksDTcdj.F3i3sNy",
+  "fathersname": "মৃতঃ আজিম উদ্দিন মিয়া",
+  "mothersname": "মৃত : সাজু বিবি",
+  "dateofbirth": "১২-১২-১৯৫৪",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "বি. এ .",
+  "nid": "৫৪২৫৪০৭১০০৭৫০",
+  "currentaddress": "গ্রামঃ কুরুরাইল ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "permaaddress": "থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর, গ্রামঃ দক্ষিণ কাউয়াকুরি, ডাকঘরঃ দত্ত কেন্দুয়া , থানাঃ- মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "সালেহা খানম (স্ত্রী )",
+  "position": "Member",
+  "avatar": "005-1654095186225.jpg",
+  "role": "user",
+  "status": "Late",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-01T14:53:06.303Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T14:53:06.303Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629780c6e146cfff419818b0"
+  },
+  "serial": "005",
+  "engname": "Md. Maniruzzaman",
+  "name": "মোঃ মনিরুজজামান",
+  "email": "monir0space@gmail.com",
+  "mobile": "+8801716428462",
+  "password": "$2b$10$7PkCFFwQU85LRofx.cJxbOtP4z52L/crqUHrDAaqLyBEkFyCUQBm2",
+  "fathersname": "মৃতঃ মোঃ আবুল কালাম মিয়া",
+  "mothersname": "সালেহা খানম",
+  "dateofbirth": "২৫-০৫-১৯৮৬",
+  "occupation": "আই. টি.  বিজনেস",
+  "education": "বি এস সি ইন আই. টি.",
+  "nid": "২৬৯০২৪৩৮১০৩১৩",
+  "currentaddress": "গ্রামঃ কুরুরাইল ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "permaaddress": "থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর, গ্রামঃ দক্ষিণ কাউয়াকুরি, ডাকঘরঃ দত্ত কেন্দুয়া , থানাঃ- মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "বীথি  আক্তার  (স্ত্রী)",
+  "position": "Member",
+  "avatar": "005a-1654096070321.jpg",
+  "role": "admin",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-01T15:07:50.397Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T15:07:50.397Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6297857ce146cfff419818b4"
+  },
+  "serial": "006",
+  "engname": "Md. Maniruzzaman Khan",
+  "name": "মোঃ মনিরুজজামান খান",
+  "email": "na",
+  "mobile": "+8801728963631",
+  "password": "$2b$10$orfqv0HY3gORYM9nn.h54uzNM5PXFbxDwYHOExh15e0kVYoQ.S8Fy",
+  "fathersname": "মৃতঃ মোফাজ্জেল আলী খান",
+  "mothersname": "মোসাঃ হামিদা খানম",
+  "dateofbirth": "০৫-০৬ -১৯৭১",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "এইচ এস সি",
+  "nid": "78000800042",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ খাগদী , ডাকঘরঃ চরমুগরীয়া , থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "শিলিকা জামান (স্ত্রী)",
+  "position": "Member",
+  "avatar": "006-1654097276176.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 10-12-2015",
+  "createdAt": {
+    "$date": "2022-06-01T15:27:56.256Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T15:27:56.256Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629786f8e146cfff419818b8"
+  },
+  "serial": "007",
+  "engname": "Kazi Abdul Jalil",
+  "name": "কাজী আব্দুল জলিল",
+  "email": "na",
+  "mobile": "+8801716141041",
+  "password": "$2b$10$W308BO0YTkqozIXjAtYQeelCMTbRihe2TJZXvctBHPCM9NvrU0AyG",
+  "fathersname": "মৃতঃ কাজী আব্দুল কাশেম",
+  "mothersname": "মোসাঃ রিজিয়া বেগম",
+  "dateofbirth": "১৫-০৬-১৯৬৪",
+  "occupation": "আইনজীবি সহকারী",
+  "education": "এইচ এস সি",
+  "nid": "5425407100751",
+  "currentaddress": "গ্রামঃ কুরুরাইল , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ কুলপদ্দি ডাকঘরঃ কুলপদ্দি, থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "মোসা : ওহিদুন নেছা (স্ত্রী)",
+  "position": "Member",
+  "avatar": "007-1654097656787.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 10-12-2015",
+  "createdAt": {
+    "$date": "2022-06-01T15:34:16.868Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T15:34:16.868Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62978912e146cfff419818bc"
+  },
+  "serial": "008",
+  "engname": "Md. Hossain Matubbar",
+  "name": "মোঃ হোসেন মাতুব্বর",
+  "email": "na",
+  "mobile": "+8801716762779",
+  "password": "$2b$10$eD7XFfTAUjZG6Xvizexw6OVSKKKhIpAwyCWMcPGgyPOftDih6BjPq",
+  "fathersname": "মৃতঃ ছলেমান মাতুব্বর",
+  "mothersname": "সবুরা বেগম",
+  "dateofbirth": "০১-০১-১৯৭৫",
+  "occupation": "ব্যবসা",
+  "education": "স্বশিক্ষা",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ কুরুরাইল , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ মধ্য হোসনাবাদ ডাকঘরঃ চর নাচনা , থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "শিল্পি বেগম(স্ত্রী)",
+  "position": "Member",
+  "avatar": "008-1654098194578.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-01T15:43:14.665Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T15:43:14.665Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62978b8be146cfff419818c0"
+  },
+  "serial": "009",
+  "engname": "Mst. Laki Akter",
+  "name": "মোসাঃ লাকি আক্তার",
+  "email": "na",
+  "mobile": "+8801317049593",
+  "password": "$2b$10$AD48khSGnWqNd3xDRnw3hujeuiBBjHXV6pQFjNAUgroALOx4MwD2u",
+  "fathersname": "খোকন হাওলাদার  (স্বামী )",
+  "mothersname": "দেলোয়ার বেগম",
+  "dateofbirth": "০১-০৫-১৯৮৪",
+  "occupation": "গৃহিণী",
+  "education": "স্বশিক্ষা",
+  "nid": "৫৪২৫৪০৭১০০৭০৭",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ বনলিকাপুর,  ডাকঘরঃ মাদারীপুর , থানাঃ মাদারীপুর",
+  "nominee": "খোকন হাওলাদার (স্বামী )",
+  "position": "Member",
+  "avatar": "009-1654098827016.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 10-12-2015",
+  "createdAt": {
+    "$date": "2022-06-01T15:53:47.101Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T15:53:47.101Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6297a22be146cfff419818c4"
+  },
+  "serial": "002",
+  "engname": "Kaji Hedayet Ullah",
+  "name": "কাজী হেদায়েত উল্লাহ্",
+  "email": "na",
+  "mobile": "+8801718624039",
+  "password": "$2b$10$173vIKhGUKLmMmuNN5.yQODu4xgl3A6sB0L5W3n3hvVVS/zu1369.",
+  "fathersname": "মৃতঃ কাজী হাফিজুর রহমান",
+  "mothersname": "মৃতঃ মিসেস রোকেয়া বেগম",
+  "dateofbirth": "১৬-৪ - ১৯৫১",
+  "occupation": "অঃ বঃ সেনা অফিসার",
+  "education": "এইচ , এস , সি",
+  "nid": "৫৪২৫৪০৭১০০৮৬৭",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দক্ষিন রসজান, ডাকঘরঃ রমজানপুর হাট , থানাঃ কালকিনি",
+  "nominee": "মোসাঃ নুরজাহান  বেগম (স্ত্রী )",
+  "position": "Member",
+  "avatar": "002-1654104619618.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 10-12-2015",
+  "createdAt": {
+    "$date": "2022-06-01T17:30:19.695Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T17:30:19.695Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6297a445e146cfff419818c9"
+  },
+  "serial": "010",
+  "engname": "dr. Md. Ashraful Alam Akon",
+  "name": "ডা:  আশরাফুল ইসলাম আকন",
+  "email": "na",
+  "mobile": "+8801714542627",
+  "password": "$2b$10$oqfugZLTS5X4X7O3dgPaGegd3ABO2X2D.4oxmz7Ek9eVVbKJTlSnK",
+  "fathersname": "মোঃ নূরুল ইসলাম আকন",
+  "mothersname": "মোসাঃ নূরজাহান বেগম",
+  "dateofbirth": "১২-১২-১৯৭৫",
+  "occupation": "দন্ত  চিকিৎসক",
+  "education": "এইচ , এস , সি",
+  "nid": "৫৪১৫৪১০২৫৫৮২৩",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ মিঠাপুর , ডাকঘরঃ হরিগঞ্জ , মাদারীপুর । থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "010-1654105157434.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 03-12-2015",
+  "createdAt": {
+    "$date": "2022-06-01T17:39:17.516Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T17:39:17.516Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6297a5cfe146cfff419818cd"
+  },
+  "serial": "011",
+  "engname": "Md. Forhad Hossain",
+  "name": "মোঃ ফরহাদ হোসেন",
+  "email": "na",
+  "mobile": "+8801721904917",
+  "password": "$2b$10$WpQxv6zzgFjapzJg.Gcgqe8Y7NURe5y1k0FQYoUuEf5p9LdiHHdi2",
+  "fathersname": "আঃ রহমান মুফতি",
+  "mothersname": "মৃতঃ মজিদা বেগম",
+  "dateofbirth": "৩০-০১-১৯৫০",
+  "occupation": "অঃ বঃ শিক্ষক",
+  "education": "বি.এ , বি , এড",
+  "nid": "৫৪১৮০১৯৩৭৩৭২৪",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ নয়াকান্দি দারুদিয়া,  ডাকঘরঃ বান্দর দৌলাত পুর, থানাঃ রাজৈর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "011-1654105551826.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 10-01-2015",
+  "createdAt": {
+    "$date": "2022-06-01T17:45:51.905Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T17:45:51.905Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6297a7afe146cfff419818d1"
+  },
+  "serial": "013",
+  "engname": "Md. Yunis Fakir",
+  "name": "মোঃ ইউনুস ফকির",
+  "email": "na",
+  "mobile": "+8801710121953",
+  "password": "$2b$10$wJnTkovJVWljfHPMIKhAG.jfvi8sLFhNIbUr2KTQduXublWjZFbfS",
+  "fathersname": "মিলন ফকির",
+  "mothersname": "মাতু বিবি",
+  "dateofbirth": "০৬-০৫-১৯৬২",
+  "occupation": "ব্যবসা",
+  "education": "স্বশিক্ষা",
+  "nid": "১৯৬২৫৪১৫৪৪১০০০০০৪",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ পূর্ব হাসনাবাদ , ডাকঘরঃ পূর্ব হাসনাবাদ , থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "013-1654106031047.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 03-12-2015",
+  "createdAt": {
+    "$date": "2022-06-01T17:53:51.125Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T17:53:51.125Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6297aed9e146cfff419818d5"
+  },
+  "serial": "015",
+  "engname": "Md. Julfikar Ali Shariff",
+  "name": "মোঃ জুলফিকার আলী শরীফ",
+  "email": "na",
+  "mobile": "+8801731412625",
+  "password": "$2b$10$jrfH6mTJWt7akqjPFYVPtOr5H0.S38loCjz4YVvYv43BSkgCsfRyS",
+  "fathersname": "মৃতঃ আমজাদ  আলী শরিফ",
+  "mothersname": "মিসেস লুৎফুন নেছা",
+  "dateofbirth": "০৬-০৩-১৯৬৭",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "এস , এস , সি",
+  "nid": "৯১৫৬২৯৮৫৯৭০৭২",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দক্ষিন খাগছারা  , ডাকঘরঃ মুর্শিদা বাদ , থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "015-1654107865583.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 03-12-2015",
+  "createdAt": {
+    "$date": "2022-06-01T18:24:25.660Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-01T18:24:25.660Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62985aef8c46bed893e8a1b4"
+  },
+  "serial": "016",
+  "engname": "Md. Abdul Jalil Hawlader",
+  "name": "মোঃ আঃ জ্বলিল হাওলাদার",
+  "email": "na",
+  "mobile": "",
+  "password": "$2b$10$/dacMKcQWgtQfr/oxzsK2eYFyqGApE4GTQ2hqHMPv91yG2nnJywWG",
+  "fathersname": "মৃতঃ ছয়জুদ্দিন্ন  হাওলাদার ",
+  "mothersname": "মৃতঃ মালাঞ্চ বিবি",
+  "dateofbirth": "০১-০১-১৯৬৩",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "এইচ , এস , সি",
+  "nid": "১৯৬৩৫৪১৪০১২১০৩৬৫৯",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ খাতিয়াল, ডাকঘরঃ খাতিয়াল , থানাঃ ডাসার, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "016-1654151919573.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 03-12-2015",
+  "createdAt": {
+    "$date": "2022-06-02T06:38:39.653Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T06:38:39.653Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62985dcd8c46bed893e8a1b8"
+  },
+  "serial": "017",
+  "engname": "Md. Kamal Hossain Hawlader",
+  "name": "মোঃ কামাল হোসেন হাওলাদার",
+  "email": "na",
+  "mobile": "+8801721356964",
+  "password": "$2b$10$C6ABGeLV4txef2RyJXR05OmBjmtyKsJH5pR.NaZxqyrCitbTB3PoW",
+  "fathersname": "মৃতঃ হালিম হাওলাদার",
+  "mothersname": "জয়ন   বিবি",
+  "dateofbirth": "০৩-০১-১৯৭২",
+  "occupation": "ব্যবসা",
+  "education": "এইচ , এস , সি",
+  "nid": "৫৪২৫৪০৭১০২১৩৮",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ হাজরাপুর , ডাকঘরঃ হাজরাপুর ,  থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "017-1654152653480.jpg",
+  "role": "user",
+  "status": "Late",
+  "comments": "member from 16-12-2015",
+  "createdAt": {
+    "$date": "2022-06-02T06:50:53.564Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T06:50:53.564Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62985f648c46bed893e8a1bc"
+  },
+  "serial": "018",
+  "engname": "Abus Salam Shikdar",
+  "name": "আব্দুছ ছালাম শিকদার",
+  "email": "na",
+  "mobile": "+8801710648491",
+  "password": "$2b$10$E5uSQlvMBY5rWj06p9f/Her3RgnCFsHKoKcCRTzO0I5jEXO5IZ2oC",
+  "fathersname": "মৃতঃ আব্দুর রহমান শিকদায়",
+  "mothersname": "মৃতঃ ছাহেরা খাতুন",
+  "dateofbirth": "০২-০৪ -১৯৬২",
+  "occupation": "চাকুরী",
+  "education": "বি . এস . সি",
+  "nid": "৫৪১৫৪২৩১৩৩৭১৬",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ উত্তর দুধখালি , ডাকঘরঃ হবিগঞ্জ , থানাঃ - মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "018-1654153060444.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "member from 10-12-2015",
+  "createdAt": {
+    "$date": "2022-06-02T06:57:40.524Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T06:57:40.524Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629861488c46bed893e8a1c0"
+  },
+  "serial": "019",
+  "engname": "Md. Anwar Hossain Khan",
+  "name": "মোঃ আনোয়ার হোসেন খান",
+  "email": "na",
+  "mobile": "+8801726766337",
+  "password": "$2b$10$o1hfwroYltbe1oGcBxeyTOqPmfKpwdguqflRC5qariKn/wD7vlXUm",
+  "fathersname": "আব্দুল ছাত্তার খান",
+  "mothersname": "ছালেহা বেগম",
+  "dateofbirth": "১৯-১১-১৯৭৬",
+  "occupation": "চাকুরী (জজকোর্ট)",
+  "education": "এইচ , এস , সি",
+  "nid": "০৬১৩২২৩৪৬১৯০০",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃদক্ষিণ ধানডোবা  ডাকঘরঃ দক্ষিণ  ধানডোবা -৮২৩১, থানাঃ গৌরনদী , জেলাঃ বরিশাল",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "019-1654153544660.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T07:05:44.742Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T07:05:44.742Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629863668c46bed893e8a1c4"
+  },
+  "serial": "020",
+  "engname": "Md. Johurul Haque Toastar",
+  "name": "মোঃ জহুরুল হক তস্তার",
+  "email": "na",
+  "mobile": "+8801912188778",
+  "password": "$2b$10$fzO/fpY1XBRZJ3uwAA60feDH/AcU2M8UysqAgXfRTaPQ51yWvro52",
+  "fathersname": "মৃতঃ ইসাহাক তস্তার",
+  "mothersname": "মৃতঃ আমিরুন নেছা",
+  "dateofbirth": "০০-০০ -১৯৫২",
+  "occupation": "অবঃ ফোরম্যান (BFDC)",
+  "education": "এস , এস , সি",
+  "nid": "৫৪২৫৪০৭১০০৮৬৩",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দক্ষিনপাড়া , ডাকঘরঃ দৌলতপুর , থানাঃ মাদারীপুর , জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "020-1654154086784.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T07:14:46.866Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T07:14:46.866Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629865458c46bed893e8a1ca"
+  },
+  "serial": "023",
+  "engname": "Md. Faruq Shikdar",
+  "name": "মোঃ ফারুক শিকদার",
+  "email": "na",
+  "mobile": "+8801711111111",
+  "password": "$2b$10$/VIqINZsdVYp7Y8AJ.JN6eovDRkGTkzwg4ewUonwEi7w5wtY12PyW",
+  "fathersname": "মৃতঃ আঃ আকুব আলী শিকদার",
+  "mothersname": "সাহেরা খাতুন",
+  "dateofbirth": "০৪-০১-১৯৮১",
+  "occupation": "ব্যবসা",
+  "education": "এস , এস , সি",
+  "nid": "৫৪১৫৪৭৭১৮৩৬২০",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃমহিশেরচর , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর , জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "023-1654154565201.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T07:22:45.283Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T07:22:45.283Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62988d2cfff2dd6514f8ffb3"
+  },
+  "serial": "023",
+  "engname": "Md. Faruq Shikdar",
+  "name": "মোঃ ফারুক শিকদার",
+  "email": "na",
+  "mobile": "+8801711111112",
+  "password": "$2b$10$k2fndlcgbgapFP3/JulGUuY0stzhvT.zI.3NF.SzeRajHjzg0eTxi",
+  "fathersname": "মৃতঃ আঃ আকুব আলী শিকদার",
+  "mothersname": "সাহেরা খাতুন",
+  "dateofbirth": "০৪-০১-১৯৮১",
+  "occupation": "ব্যবসা",
+  "education": "এস এস সি",
+  "nid": "৫৪১৫৪৭৭১৮৩৬২০",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ মহিশেরচর, থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "",
+  "avatar": "023-1654164780188.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T10:13:00.274Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T10:13:00.274Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62988ea0fff2dd6514f8ffb8"
+  },
+  "serial": "024",
+  "engname": "Nurzahan",
+  "name": "নুরজাহান",
+  "email": "na",
+  "mobile": "+8801711111113",
+  "password": "$2b$10$aEy9NtH.DQ1F61EHXZjvZ.A9PuBt.uN32VVEyE/D3RgXWs3Aafsz.",
+  "fathersname": "আঃ কুদ্দুস তালুকদার",
+  "mothersname": "তাছলিমা বেগম",
+  "dateofbirth": "১৫-০২-১৯৮৬",
+  "occupation": "গৃহিণী",
+  "education": "এস এস সি",
+  "nid": "১৯৮৬৫৪২৫৪০৭০০০০০৮",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ আশপাট, থানাঃ মাদারীপুর , ডাকঘরঃ হুগলী, জেলাঃ   মাদারীপুর",
+  "nominee": "",
+  "position": "",
+  "avatar": "024-1654165152328.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T10:19:12.404Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T10:19:12.404Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62989003fff2dd6514f8ffbc"
+  },
+  "serial": "025",
+  "engname": "Abdul Jabbar Hawlader",
+  "name": "আব্দুল জব্বার হাওলাদার",
+  "email": "na",
+  "mobile": "+8801711111114",
+  "password": "$2b$10$5WAHHfS.SDkcjz4dxMPa..FlkMjw9PK4RnK3bgvyO9Qb1awIhevA6",
+  "fathersname": "মৃতঃ ছয়জদ্দিন হাওলাদার",
+  "mothersname": "মৃতঃ মালাঞ্চ বিবি",
+  "dateofbirth": "০১-০৬-১৯৫৩",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "এস এস সি",
+  "nid": "৮৬১৩৬৩৫৮৭৪২৫০",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ খাতিয়াল, ডাকঘরঃ খাতিয়াল , থানাঃ ডাসার, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "",
+  "avatar": "025-1654165507164.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T10:25:07.243Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T10:25:07.243Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62989159fff2dd6514f8ffc0"
+  },
+  "serial": "026",
+  "engname": "Md. Moin Uddin Matubbar",
+  "name": "মোঃ মাইন উদ্দিন মাতুব্বর",
+  "email": "na",
+  "mobile": "+8801711111115",
+  "password": "$2b$10$8QMWhedyyKP79XQD3tPzOeyvPn7kFemmeV4wsd1iwSCmCnagOf7Hm",
+  "fathersname": "মৃতঃ আদিল উদ্দিন মাতুব্বষ",
+  "mothersname": "মৃতঃ মহরজান বেগম",
+  "dateofbirth": "২৯-০৪- ১৯৫৭",
+  "occupation": "ব্যবসা",
+  "education": "স্বশিক্ষা",
+  "nid": "৫৪১৫৪৭১২৬৩২১১",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ বড় বাড্ডা , ডাকঘরঃ মস্তাফাপুর, থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "",
+  "avatar": "026-1654165848974.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T10:30:49.060Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T10:30:49.060Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629892f2fff2dd6514f8ffc4"
+  },
+  "serial": "027",
+  "engname": "Md. Asadul Matubbar",
+  "name": "মোঃ আছাদুল মাতুব্বর",
+  "email": "na",
+  "mobile": "+8801711111116",
+  "password": "$2b$10$NjX2PzHsfLXrMItORgUWveAKV91h84oYsfpBVl3L8MPTRP1E/Bp.2",
+  "fathersname": "মৃতঃ মজিবুর রহমান",
+  "mothersname": "রেখা বেগম",
+  "dateofbirth": "০১-০৫-১৯৮৭",
+  "occupation": "প্রবাশী",
+  "education": "স্বশিক্ষা",
+  "nid": "১৯৮৭৫৪১৫৪৫৯১০৪৬৪৭ (পাসপোর্ট )",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দক্ষিন পাড়া , থানাঃ মাদারীপুর, ডাকঘরঃ বদর দৈালতপুর,জেলাঃ  মাদারীপুর",
+  "nominee": "",
+  "position": "",
+  "avatar": "027-1654166258286.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T10:37:38.368Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T10:37:38.368Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629894e1fff2dd6514f8ffc8"
+  },
+  "serial": "030",
+  "engname": "Md. Nurul Islam Hawlader",
+  "name": "মোঃ নূরুল ইসলাম হাওলাদার",
+  "email": "na",
+  "mobile": "+8801711111117",
+  "password": "$2b$10$2dnBd1cebli1DN.5SRah8u4xMHnM4wo/UEwae8xkB0h9DS8QHRgZ2",
+  "fathersname": "মৃতঃ মোঃ হালান হাওলাদার",
+  "mothersname": "মোছাঃ আজিবন নেছা",
+  "dateofbirth": "১১-১২- ১৯৬৫",
+  "occupation": "চাকুরী",
+  "education": "অষ্টম শ্রেণি",
+  "nid": "৫৪১৫৪৪১৩১২৬৮৫",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দক্ষিণ মধুখালি  থানাঃ দুর্গাব্দী    থা+জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "030-1654166753233.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T10:45:53.319Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T10:45:53.319Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629896fefff2dd6514f8ffcc"
+  },
+  "serial": "031",
+  "engname": "Md. Kazi Khalilur Rahman",
+  "name": "মোঃ কাজী খলিলুর রহমান",
+  "email": "na",
+  "mobile": "+8801711111118",
+  "password": "$2b$10$SbOM1.5CMD.BAWamXfyTEOdxYIB92vooIAPiUetJ.xma6C3GZo4Wm",
+  "fathersname": "মৃতঃ আঃ ওহাব কাজী",
+  "mothersname": "মৃতঃ সালেহা বেগম",
+  "dateofbirth": "০৭-০৬-১৯৭১",
+  "occupation": "প্রবাশী",
+  "education": "এইচ , এস , সি",
+  "nid": "৫৪১৫৪৯৪৩০৭৪২৬",
+  "currentaddress": "গ্রামঃ কুকরাইল, ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃপশ্চিম মাঠ/ শিরখারা  ,   ডাকঘরঃশ্রিনদি, থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "031-1654167294455.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T10:54:54.535Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T10:54:54.535Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6298b9b4589016e1753cbe37"
+  },
+  "serial": "034",
+  "engname": "Md. Abdul Karim Talukdar",
+  "name": "মো : আ : করিম তালুকদা",
+  "email": "na",
+  "mobile": "+8801711111119",
+  "password": "$2b$10$1V6SSfRc71UrwMYHn.nruen.twIwyniTaRpTZ5wFouAFiFPq5ppO6",
+  "fathersname": "মোঃ কাশেম তালুকদার",
+  "mothersname": "যোদ্ধা  খাদেজা বেগম",
+  "dateofbirth": "০১-০১-১৯৭২",
+  "occupation": "ব্যবসা",
+  "education": "অষ্টম শ্রেণি",
+  "nid": "৫৪২৫৪০৬১৭৮৯৭৬",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃরাগের পাড় , ডাকঘরঃ থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর , মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "034-1654176180483.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T13:23:00.578Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T13:23:00.578Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6298bb45589016e1753cbe3b"
+  },
+  "serial": "035",
+  "engname": "Hazi Golam Jahandar Hawlader",
+  "name": "হাজী গোলাম জাহান্দার হাওলাদার",
+  "email": "na",
+  "mobile": "+8801711111120",
+  "password": "$2b$10$5tfFOo2AJUTPL1mNNwlKBu/9UHcj1ls.TKJLUZR9uRHguZu1sIGjW",
+  "fathersname": "মৃতঃ আদেল উদ্দিন হাওলাদ হাওলাদার",
+  "mothersname": "মৃতঃ সূর্যবান বিবি",
+  "dateofbirth": "১৫-০৭- ১৯৫৪",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "বি. এ .",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ কুল্লপদ্দি   , ডাকঘরঃ কুল্লপদ্দি, থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "035-1654176581826.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T13:29:41.910Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T13:29:41.910Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6298bebb589016e1753cbe3f"
+  },
+  "serial": "036",
+  "engname": "Md. Azizul Kabiraz",
+  "name": "মোঃ আজিজুল হক কবিরাজ",
+  "email": "na",
+  "mobile": "+8801711111121",
+  "password": "$2b$10$qG6f6Im9K./ESsA9QhjvhO0dT6oVBEduvuMgQsBqooWP4iTJkNyw6",
+  "fathersname": "মৃতঃ মোঃ আঃ কাদের কবিরাজ",
+  "mothersname": "মৃতঃ জয়নব বিবি",
+  "dateofbirth": "১৫-০৭- ১৯৫৪",
+  "occupation": "চাকুরী (অবসরপ্রাপ্ত সেনা সদস্য )",
+  "education": "অষ্টম শ্রেণি",
+  "nid": "৪১৫৪৭৯৮৪৭৪১৪৫",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দক্ষিণ ধুয়াসার,  ডাকঘরঃ দক্ষিণ ধুয়াসার, থানাঃ কালকিনি  , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "036-1654177467478.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T13:44:27.558Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T13:44:27.558Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6298c23f589016e1753cbe44"
+  },
+  "serial": "037",
+  "engname": "Khondokar Monirul Islam",
+  "name": "খোন্দকার মনিরুল ইসলাম",
+  "email": "na",
+  "mobile": "+8801711111122",
+  "password": "$2b$10$gvs0IXqzNvCXaTSmzDh7aewjBiFRIB1F/fqBmhxhGOf4h9ScARbP2",
+  "fathersname": "মৃতঃ খোন্দকার মোহাম্মদ আলী",
+  "mothersname": "মৃতঃ মরহুম হাজেরা খাতুন",
+  "dateofbirth": "০৯-১২-১৯৭৩",
+  "occupation": "চাকুরী",
+  "education": "এইচ , এস , সি",
+  "nid": "১৯৭৩৬৭১৫৮৩৭৪০২৩২৪",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "037-1654178367811.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T13:59:27.899Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T13:59:27.899Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6298c507589016e1753cbe48"
+  },
+  "serial": "039",
+  "engname": "Nadira Begum",
+  "name": "নাদিরা বেগম",
+  "email": "na",
+  "mobile": "+8801746425171",
+  "password": "$2b$10$L93B7BVHeoTb0RSgXo.ZJO82EuDDSqjfI4PTJyNOOjBRAPHSvuHZ.",
+  "fathersname": "মৃতঃ আয়নাল খান",
+  "mothersname": "ফাতেমা বেগম",
+  "dateofbirth": "০১-১০-১৯৮১",
+  "occupation": "গৃহীনি",
+  "education": "স্বশিক্ষা",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ হোসেনপুর, ডাকঘরঃ হোসেনপুর, থানাঃ  রাজৈর ,জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "039-1654179079703.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T14:11:19.776Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T14:11:19.776Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6298c6bb589016e1753cbe4d"
+  },
+  "serial": "040",
+  "engname": "Mst. Tania Begum Rina",
+  "name": "মোছাঃ তানিয়া বেগম রিনা",
+  "email": "na",
+  "mobile": "+8801711111123",
+  "password": "$2b$10$exvu6HUIo.vCefpdzr9O6.wNLJFveiNiQ.dbT8IkuOSdCjzASWywW",
+  "fathersname": "মোঃ মোক্তার হোসেন তালুকদার",
+  "mothersname": "মোছাঃ আনু বেগম",
+  "dateofbirth": "২৩-১২-১৯৮৫",
+  "occupation": "গৃহীনি",
+  "education": "অষ্টম শ্রেণি",
+  "nid": "5425407100509",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ চরখাগদি.  ডাকঘরঃ চরমুগরিয়া,  থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "040-1654179515732.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T14:18:35.809Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T14:18:35.809Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6298c899589016e1753cbe51"
+  },
+  "serial": "041",
+  "engname": "Jasim Talukdar",
+  "name": "জসিম তালুকদার",
+  "email": "na",
+  "mobile": "+8801711111124",
+  "password": "$2b$10$J/ytpi0L2.dsUM2e17Tvvesxpv2seUu5mPxZwL3VJtCi0p6AoPhcO",
+  "fathersname": "হাজী আঃ রহমান তালুকদার",
+  "mothersname": "জাহানারা বেগম",
+  "dateofbirth": "১৫-০৩-১৯৮৮",
+  "occupation": "ব্যবসা",
+  "education": "এইচ , এস , সি",
+  "nid": "১৯৮৮৫৪১৫৪৭১০০০০৯১",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ উত্তর খাগছরা, ডাকঘরঃ মস্তাফাপুর , থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "041-1654179993324.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T14:26:33.405Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T14:26:33.405Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6298d8e730813896af7d494b"
+  },
+  "serial": "042",
+  "engname": "Md. Faruk Hossain Faqir",
+  "name": "মোঃ ফারুক হোসেন ফকির",
+  "email": "na",
+  "mobile": "+8801724695794",
+  "password": "$2b$10$mQmfa1IQUN1aLqZEMum9jeV0qbW3f9MSTFYlBbhQLHacjYCaLn2xe",
+  "fathersname": "মৃতঃ মোঃ মংগল ফকির",
+  "mothersname": "মোসাম্মৎ সুফিয়া বেগম",
+  "dateofbirth": "০২-০৫-১৯৭৮",
+  "occupation": "প্রবাশী",
+  "education": "NA",
+  "nid": "১৯৭৮৫৪২৫৪০৭০০০০০৪",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "",
+  "avatar": "042-1654184167000.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-02T15:36:07.090Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-02T15:36:07.090Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b5f52ecf73e4f61a8602e"
+  },
+  "serial": "044",
+  "engname": "Md. Saidur Rahman",
+  "name": "মোঃ সাইয়াদুর রহমান",
+  "email": "",
+  "mobile": "NA",
+  "password": "$2b$10$6MmAmYgF2z/ogMEaSYs9zuKHHV9rpqwmJm8fxLSvzBHiUNbOQYgWy",
+  "fathersname": "মৃতঃ মোঃ সামছুল হক মুন্সি",
+  "mothersname": "মৃতঃ মোছা জাহানারা বেগম",
+  "dateofbirth": "২৫-১২-১৯৭৪",
+  "occupation": "চাকুরী",
+  "education": "বি. এ .",
+  "nid": "৫৪১৫৪১০২৫৩৫৮১",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ মিঠাপুর , ডাকঘরঃ হরিগঞ্জ , থানাঃ মাদারীপুর , জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "",
+  "avatar": "044-1654349650836.jpg",
+  "role": "user",
+  "status": "Closed",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T13:34:10.928Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T13:34:10.928Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b617decf73e4f61a86031"
+  },
+  "serial": "045",
+  "engname": "M. A. Mannan Howlader",
+  "name": "এম এ মান্নান হাওলাদার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$aR5B02qaPd0GMG3W1DlR7O676sgmaQdUIT4B2LPgSL5duexVXBdZC",
+  "fathersname": "মৃতঃ ছয়জুদ্দিন্ন  হাওলাদার",
+  "mothersname": "মৃতঃ মালাঞ্চ বিবি",
+  "dateofbirth": "০৮- ০২-১৯৫৯",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "এমঃ  এঃ",
+  "nid": "৫৪১৫৪১০২৫৩৫৮১",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ খাতিয়াল, ডাকঘরঃ খাতিয়াল , থানাঃ ডাসার, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "045-1654350205463.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T13:43:25.546Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T13:43:25.546Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b62f8ecf73e4f61a86034"
+  },
+  "serial": "046",
+  "engname": "A. Matin Hawlader",
+  "name": "আঃ মতিন হাওলাদার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$DI.udgTnlWS7jLrL37M9BedgtE1ZAjKRO2joIyJT1Ng517an99lq6",
+  "fathersname": "মৃতঃ আঃ কাদের হাওলাদার",
+  "mothersname": "যোদ্ধা সালেহা বেগম",
+  "dateofbirth": "০০-০০-০০০০",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "বি. এ .",
+  "nid": "000000000000",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দুর্গাপুর,  ডাকঘরঃদুর্গাবরদি,থানাঃ মাদারীপুরু, জেলাঃ মাদারীপুর,",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "046-1654350584312.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T13:49:44.390Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T13:49:44.390Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b6535ecf73e4f61a86037"
+  },
+  "serial": "047",
+  "engname": "Reshma Akter",
+  "name": "রেশমা আক্তার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$S2IebrksbYlvyz9yfr3qQeAvugVEyPe/oNlbn4w60y4Pgoiy6ETnC",
+  "fathersname": "সালাউদ্দিন সরদার",
+  "mothersname": "শেফালী বেগম",
+  "dateofbirth": "২২-১১-১৯৮৮",
+  "occupation": "চাকুরী",
+  "education": "এইচ , এস , সি",
+  "nid": "000000000000",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "047-1654351157474.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T13:59:17.560Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T13:59:17.560Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b66a5ecf73e4f61a8603a"
+  },
+  "serial": "051",
+  "engname": "Md. Fazlur Rahman",
+  "name": "মোঃ ফজলুর রহমান",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$jqZQNLimMB9840PFIjUMgebxBoLfJ4ADOlBsYd2MyYAc8gNNAGl16",
+  "fathersname": "মৃত: আব্দুস ছালাম আকন",
+  "mothersname": "সউদুন্ননেসা",
+  "dateofbirth": "০২-০২-১৯৬৪",
+  "occupation": "চাকুরী",
+  "education": "এইচ , এস , সি",
+  "nid": "৫৪১৫৪১০২৫৩৫৯৮",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ মিঠাপুর , ডাকঘরঃ হবিগঞ্জ, থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "051-1654351525424.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T14:05:25.497Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T14:05:25.497Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b6cfcecf73e4f61a8603d"
+  },
+  "serial": "052",
+  "engname": "Md. Nazrul Islam",
+  "name": "মোঃ নজরুল ইসলাম",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$9neXXbEsf5biU0EK6y9XuunfDmU4tuA8dQvaS.DpjtQLKb4ZdlDmG",
+  "fathersname": "মৃতঃ আঃ ছাত্তার খালাশী",
+  "mothersname": "মৃতঃ রিজিয়া বেগম",
+  "dateofbirth": "০৯-০৭-১৯৭৮",
+  "occupation": "ব্যবসা",
+  "education": "বি. এ .",
+  "nid": "৫৪১৫৪৫৯৪৮৬২০৮",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ আপাশী, ডাকঘরঃ হুগলী  থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "052-1654353148564.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T14:32:28.638Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T14:32:28.638Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b6e70ecf73e4f61a86040"
+  },
+  "serial": "053",
+  "engname": "Maya Bibi",
+  "name": "মায়া বিবি",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$ZtOcqv1BLImq.yh1aBH5iObqVfMLU6i5piUX3EcYfMRMoPwdXefOm",
+  "fathersname": "মোঃ সায়েবালী জমাদার",
+  "mothersname": "মোসাঃ কুলসুম বিবি",
+  "dateofbirth": "০১-০১-১৯৮৬",
+  "occupation": "গৃহিণী",
+  "education": "পঞ্চম শ্রেণি",
+  "nid": "৫৪১৫৪৪১৩১০৬৮১",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ চরনাছনা , ডাকঘরঃচরনাছনা, থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "053-1654353519970.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T14:38:40.042Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T14:38:40.042Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b7001ecf73e4f61a86043"
+  },
+  "serial": "054",
+  "engname": "Mrs. Ronhuda Begum",
+  "name": "মিসেস রনজিদা বেগম",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$WHMJSQGcWjgSPtvfwmIkZe.XOSdT0EU2Zwky8O5sEFL8EJ2LFOSjq",
+  "fathersname": "শিকদার আঃ ওয়াহেদ",
+  "mothersname": "জুলেখা বেগম",
+  "dateofbirth": "০৯-০৫-১৯৭১",
+  "occupation": "গৃহিণী",
+  "education": "এস , এস , সি",
+  "nid": "১৯৭১৫৪২৫৪০৩০০০০০৬",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ.টি.এন.টি . অফিস উঃ পাড়া,  ডাকঘরঃ মাদারীপুর থানাঃ ডাকঘরঃ জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "054-1654353921704.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T14:45:21.777Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T14:45:21.777Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b710aecf73e4f61a86046"
+  },
+  "serial": "055",
+  "engname": "Toma Akter",
+  "name": "মিসেস রনজিদা বেগম",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$a96NpQLXU71fKLV8vDu4V.ejzp8ztg4SENJDViY20xJpdHd.i2JKe",
+  "fathersname": "জাহেদ আলী শরীফ",
+  "mothersname": "বিলকিছ বেগম",
+  "dateofbirth": "১৫-০৫-১৯৯৬",
+  "occupation": "গৃহিণী",
+  "education": "এস , এস , সি",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "055-1654354185969.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T14:49:46.043Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T14:49:46.043Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b74e966cbd28ac6c93043"
+  },
+  "serial": "056",
+  "engname": "Md. Firoz Hawlader",
+  "name": "মোঃ ফিরোজ হাওলাদার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$Qv8/DEqGvX1D0SzrdKA4VupeemWA9arR6EfYAark3.lWP1KcdvUW2",
+  "fathersname": "মৃতঃ আঃ জব্বার হওলাদার",
+  "mothersname": "মৃতঃ হামিদা বেগম",
+  "dateofbirth": "০৫-০৮-১৯৭৯",
+  "occupation": "রাজমিস্ত্রি",
+  "education": "এস , এস , সি",
+  "nid": "৫৪২৫৪০৭১০০৪৯৬",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃবানাটর,  ডাকঘরঃ বানাটর হাট , থানাঃ কাঠালিয়া , জেলাঃ কাঠালিয়া / ঝালকাঠি",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "056-1654355177764.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T15:06:17.856Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T15:06:17.856Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b767e66cbd28ac6c93046"
+  },
+  "serial": "057",
+  "engname": "Jobedali Hawlader",
+  "name": "জবেদালী হাওলাদার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$CYLlIgH.NqPkPFcFWTjDU.3ncw7ixLO93xJ9Dd70CFXYEKRSA30Qq",
+  "fathersname": "মৃতঃ ফাজেল হাওলাদার",
+  "mothersname": "মৃতঃ লক্ষী বেগম",
+  "dateofbirth": "২৯-০৫-১৯৪৫",
+  "occupation": "ব্যবসা",
+  "education": "পঞ্চম শ্রেণি",
+  "nid": "৫৪১৫৪১৭৪৬৮৫১২",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃচর ধুরাইল, ডাকঘরঃ ধুরাইল খালাসিকান্দি  , থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "057-1654355582904.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T15:13:02.984Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T15:13:02.984Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b780866cbd28ac6c93049"
+  },
+  "serial": "058",
+  "engname": "Md. Masudur Rahman",
+  "name": "মোঃ মাসুদুর রহমান",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$3Nj//kbdP06RR6i99DRIUuoRtlRBhkNWnYB1hzMY6v6upl3T9xYyy",
+  "fathersname": "মৃতঃ আফতাব উদ্দিন মিয়া",
+  "mothersname": "মৃতঃ মোসাঃ ফাতেমা বেগম",
+  "dateofbirth": "০২-০৩-১৯৬১",
+  "occupation": "চাকুরী",
+  "education": "বি. এ .",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ পেয়ারপুর , ডাকঘরঃ পেয়ারপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "058-1654355976801.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T15:19:36.882Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T15:19:36.882Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b78e966cbd28ac6c9304c"
+  },
+  "serial": "059",
+  "engname": "Asma Akter",
+  "name": "আসমা আক্তার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$1rGZHvFrxohvMWkI.mQdP.9obikQhjzGptoNl2ntvGZ6EACb4lr82",
+  "fathersname": "আঃ হাই মজুমদার",
+  "mothersname": "শরিয়াতুন নেসা",
+  "dateofbirth": "০১-০২-১৯৮১",
+  "occupation": "গৃহিণী",
+  "education": "এস , এস , সি",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "059-1654356201685.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T15:23:21.758Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T15:23:21.758Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629b7b0466cbd28ac6c9304f"
+  },
+  "serial": "060",
+  "engname": "Tahmina Khanam",
+  "name": "তাহমিনা খানম",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$ggGOgngyW.A3Hhiii3u7w.vUC6.DvE9EldSOpINjZ3RaAcMBf.70q",
+  "fathersname": "মোঃ বাদশা খান",
+  "mothersname": "জয়নাব  বানু",
+  "dateofbirth": "৩১-০১-১৯৭৯",
+  "occupation": "গৃহিণী",
+  "education": "বি. এ .",
+  "nid": "৬৪৫০১৬১৭১৩",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দক্ষিণ বি বিঙ্গল , ডাকঘরঃ হবিগঞ্জ,  ৭৯০১,  থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "060-1654356740432.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-04T15:32:20.506Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-04T15:32:20.506Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c54f1717f4a2752ec7eb8"
+  },
+  "serial": "061",
+  "engname": "Md. Siddiqur Rahman Mollah",
+  "name": "মোঃ সিদ্দিকুর রহমান মোল্লা",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$s80ECWE7GbKb6YvDOVPGHOFCGG.SlQUXoC8WUKQUOT0aJMP1Ta/vC",
+  "fathersname": "মোঃ খলিলুর রহমান",
+  "mothersname": "জহুরা বেগম",
+  "dateofbirth": "১২-০৩-১৯৬৩",
+  "occupation": "ব্যবসা",
+  "education": "এইচ , এস , সি",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ চর গগিন্দপুর, ডাকঘরঃ মঠের বাজার, থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "061-1654412529394.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:02:09.513Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:02:09.513Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c5635717f4a2752ec7ebb"
+  },
+  "serial": "062",
+  "engname": "Md. Anwar Hossain",
+  "name": "মোঃ আনোয়ার হোসেন",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$KjHBdcyFWlbPFnkxjZ0Ukekt6rLklu8TQTJ6mUT7k5aePtYGTJJpa",
+  "fathersname": "হাজীঃ কালাম মাতুব্বর",
+  "mothersname": "শাহেদা বেগম",
+  "dateofbirth": "১০-১০-১৯৮০",
+  "occupation": "প্রবাশী",
+  "education": "এইচ , এস , সি",
+  "nid": "BH -০৯৯৭২৫৬(পাসপোর্ট)",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ শিরখাড়া, ডাকঘরঃ খাগদী,  থানাঃ মাদারীপুর, জেলাঃমাদারীপুর,",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "062-1654412852958.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:07:33.041Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:07:33.041Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c5788717f4a2752ec7ebe"
+  },
+  "serial": "063",
+  "engname": "Md. Anwar Hossain",
+  "name": "মোঃ আনোয়ার হোসেন",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$KfzHm0Vqh87W4nfQgq5X6OOkpHHq2kTRTEJC0d6qUfndyE2DU8sUe",
+  "fathersname": "মোঃ ফরহাদ হোসেন মুফতি",
+  "mothersname": "যোদ্ধা আছিয়া বেগম",
+  "dateofbirth": "00-00-0000",
+  "occupation": "ব্যবসা",
+  "education": "বি. এ .",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ নয়াকান্দি, ডাকঘরঃ বান্দর দউলাতপুর,  থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "063-1654413191964.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:13:12.046Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:13:12.046Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c5887717f4a2752ec7ec1"
+  },
+  "serial": "064",
+  "engname": "Md. Abu Taled Hawlader",
+  "name": "মোঃ আবু তালেব হাওলাদার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$BhpEVcEycOhp4LWN1xHqauWxbkSnaxlqHFALNMhDFcMONe1BiN0RO",
+  "fathersname": "হাজী মোঃ ছয়জদ্দিন হাওলাদার",
+  "mothersname": "হাজী হারেজা বেগম",
+  "dateofbirth": "০৪-০১-১৯৬৩",
+  "occupation": "ব্যবসা",
+  "education": "বি. এ .",
+  "nid": "৫৪২৫০৭১০০০৭৪২",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ চরলক্ষীপুর , ডাকঘরঃচরনাচনা, থানাঃ  মাদারীপুর  জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "064-1654413447506.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:17:27.579Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:17:27.579Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c5981717f4a2752ec7ec4"
+  },
+  "serial": "065",
+  "engname": "Mrs. Sheuli Aktar",
+  "name": "মোসাঃ শিউলী আক্তার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$ZzDA.NuwU30gz0/nEoL9YOxPipib3e8XBu6QEE9mVHcTv4R5vX.Sy",
+  "fathersname": "আঃ রশিদ হাওলাদার",
+  "mothersname": "আছিয়া বেগম",
+  "dateofbirth": "২০-০৫-১৯৮৪",
+  "occupation": "গৃহিণী",
+  "education": "অষ্টম শ্রেণি",
+  "nid": "৫৪১৮০১৩৪৪৪৮৮৫",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ উত্তর খাগছড়া, ডাকঘরঃ মাদারীপুর,  থানাঃ মাদারীপুর, জেলাঃমাদারীপুর,",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "065-1654413697043.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:21:37.117Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:21:37.117Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c5a4a717f4a2752ec7ec7"
+  },
+  "serial": "067",
+  "engname": "Rehana Begum",
+  "name": "রেহানা বেগম",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$JuTCcv8n4tLWq3C3nMVNdOzudsA9/Rbx5JxVV4qVzVrmSXJPNwbx.",
+  "fathersname": "জিয়াউল হক হওলাদার",
+  "mothersname": "আকিয়া বেগম",
+  "dateofbirth": "০৫-০৩-১৯৯০",
+  "occupation": "গৃহিণী",
+  "education": "দশম শ্রেণি",
+  "nid": "১৯৯০৫৪১৫১০০০০০২৫",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ উত্তর খাগছড়া, ডাকঘরঃ মাদারীপুর,  থানাঃ মাদারীপুর, জেলাঃমাদারীপুর,",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "067-1654413898264.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:24:58.337Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:24:58.337Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c5c44717f4a2752ec7eca"
+  },
+  "serial": "068",
+  "engname": "Md. Ishak Sing",
+  "name": "মোঃ ইসাহাক সিং",
+  "email": "na",
+  "mobile": "0182811463,01999208753",
+  "password": "$2b$10$kQwecu0ZXBKmL2SmAWJtp.QUzmCS6rNxzKjVcvkqVyT78jC6Ll/Zy",
+  "fathersname": "মৃতঃ রমিজ উদ্দিন সিং",
+  "mothersname": "মৃতঃ মাজেদা বেগম",
+  "dateofbirth": "০৯-০২-১৯৫৭",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "দশম শ্রেণি",
+  "nid": "১৯৫৭৫০২৯৮০১২৩০০২৮",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ খাগদী,ডাকঘরঃ ঘটমাঝি,   থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "068-1654414404008.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:33:24.078Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:33:24.078Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c5d32717f4a2752ec7ecd"
+  },
+  "serial": "069",
+  "engname": "Abul Kalam Azad",
+  "name": "আবুল কালাম আজাদ",
+  "email": "na",
+  "mobile": "01716599567",
+  "password": "$2b$10$AB26YFwEjRUsba5ez6nqH.pyuD8.YPZhfLlabCPm10PDIPwUa6dGm",
+  "fathersname": "হাতেম বেপারী",
+  "mothersname": "মোসাঃ রাহেলা বেগম",
+  "dateofbirth": "০৭-০৩ -১৯৮২",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "এস , এস , সি",
+  "nid": "৫৯৮৮৩৯৯৯৫৬৭",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃখলিফাকান্দি  ডাকঘরঃ ছলেনাযা, থানাঃ শিবচর, জেলাঃ মাদারীপুর,",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "069-1654414641977.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:37:22.051Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:37:22.051Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629c5e35717f4a2752ec7ed0"
+  },
+  "serial": "070",
+  "engname": "Syed Golam Mawla",
+  "name": "সৈয়দ গোলাম মাওলা",
+  "email": "na",
+  "mobile": "+৮৮০১৯১২০৫৪৯৮৬ ",
+  "password": "$2b$10$7kpKH5qYMgGDY.MiJcU9GuQ9OnrfT5hUqDC8kaikx1FLp6.aAUYgS",
+  "fathersname": "সৈয়দ আঃ হাকিম",
+  "mothersname": "মোসাঃ শামসুন্নাহার",
+  "dateofbirth": "০৭-০৩ -১৯৮২",
+  "occupation": "চাকুরী",
+  "education": "এম.এ. এল এল বি",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ পাতিলাদী , ডাকঘরঃদুর্গাবদ্ধি, থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "070-1654414901002.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-05T07:41:41.073Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-05T07:41:41.073Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629da0378711b64ef01b2f73"
+  },
+  "serial": "072",
+  "engname": "Shoidul Islam",
+  "name": "শহীদুল ইসলাম",
+  "email": "na",
+  "mobile": "01712849957, 01947718008",
+  "password": "$2b$10$WMOms59RUVQC0lkwfD1n3urd9t6cllfv8zgZskB1aJhnZSZ48QLVS",
+  "fathersname": "মৃতঃ আবদুল খালেক মুন্সি",
+  "mothersname": "আম্বিয়া বেগম",
+  "dateofbirth": "৩০-১১-১৯৭৮",
+  "occupation": "চাকুরী",
+  "education": "এম. এ. বি. এড",
+  "nid": "১৯৭৮৫৪১৫৪৭১২২৬২৫৫",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ- নওহাটা, ডাকঘরঃ মস্তফাপুর, থানাঃ মাদারীপুর, জেলাঃ মামারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "072-1654497335030.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T06:35:35.183Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T06:35:35.183Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629da1e38711b64ef01b2f76"
+  },
+  "serial": "073",
+  "engname": "Md. Miraj Mollah",
+  "name": "মোঃ মিরাজ মোল্লা",
+  "email": "na",
+  "mobile": "01938493696",
+  "password": "$2b$10$I6zS0AZ01LSZcJYMwT//9eGi8PiTIYy67c93E59hp4HWKdNQqYBZ6",
+  "fathersname": "আবদুর রহমান মোল্লা",
+  "mothersname": "মৃতঃ আদিয়া রহমান",
+  "dateofbirth": "০১-০১-১৯৮০",
+  "occupation": "চাকুরী",
+  "education": "বি, এস , এস",
+  "nid": "৫৪২৫৪০৮১৭৯৭৭৯",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ সি -১ দিপি   ডিসি, ডাকঘরঃ ষটাফ কোয়াটার, কাফরুল -১৪, জেলাঃ ঢাকা-১২০৬",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "073-1654497763788.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T06:42:43.869Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T06:42:43.869Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629da2c58711b64ef01b2f79"
+  },
+  "serial": "074",
+  "engname": "Md. Kazi Shamim",
+  "name": "মোহাম্মদ কাজী শামীম",
+  "email": "na",
+  "mobile": "01716342152",
+  "password": "$2b$10$kz84WDHZhyVmF58OYkgyqOlIYQqO5OZ9Jac434ypOwBAxUwtAa1R2",
+  "fathersname": "আলহাজ কাজী গোলাম মাওলা",
+  "mothersname": "মৃতঃ খাদিজা বেগম",
+  "dateofbirth": "০৯-০৮-১৯৭৬",
+  "occupation": "চাকুরী",
+  "education": "এস , এস , সি",
+  "nid": "৩৩২৩০০৭১৬৩৯৩৪",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃখাদনসী, ডাকঘরঃহুগলী, থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "074-1654497989269.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T06:46:29.352Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T06:46:29.352Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629da4ca8711b64ef01b2f7c"
+  },
+  "serial": "076",
+  "engname": "Kazi Moniruzzaman",
+  "name": "কাজী মনিরুজ্জামান",
+  "email": "na",
+  "mobile": "০০৪৪৭০৫৯৩৬২২৩০",
+  "password": "$2b$10$ugRnxo3idTJdgvvJReVl4.KdbbJzopteKja4xXRlENtWbCYiDtwh6",
+  "fathersname": "আঃ সাত্তার কাজী",
+  "mothersname": "নিলিমন্নেসা",
+  "dateofbirth": "০৮-০৯-১৯৭৮",
+  "occupation": "প্রবাশী",
+  "education": "এস , এস , সি",
+  "nid": "C0799188 (পাসপোর্ট)",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ পশ্চিম কমলাপুর, ডাকঘরঃ মুর্শিদাবাদ, , থানাঃ ডাঁসার, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "076-1654498506082.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T06:55:06.158Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T06:55:06.158Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629da5638711b64ef01b2f7f"
+  },
+  "serial": "077",
+  "engname": "Kazi Ariful Islam",
+  "name": "কাজি আরিফুল ইসলাম",
+  "email": "na",
+  "mobile": "০০৪৪৭০৫৯৩৬২২৩০",
+  "password": "$2b$10$ag8VoQw1oTWIfthJGswxZ.WMfc.w.7xN0rxLo.uVYlrZlodVc07dK",
+  "fathersname": "আঃ সাত্তার কাজী",
+  "mothersname": "নিলিমন্নেসা",
+  "dateofbirth": "০৫-০৬-১৯৮৬",
+  "occupation": "প্রবাশী",
+  "education": "এইচ , এস , সি",
+  "nid": "BH-0533724 (পাসপোর্ট)",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ পশ্চিম কমলাপুর, ডাকঘরঃ মুর্শিদাবাদ, , থানাঃ ডাঁসার, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "077-1654498659235.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T06:57:39.313Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T06:57:39.313Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629da63e8711b64ef01b2f82"
+  },
+  "serial": "078",
+  "engname": "Abdul Hanna Hawlader",
+  "name": "মোঃ আঃ হান্নান হাওলাদার।",
+  "email": "na",
+  "mobile": "01915637278",
+  "password": "$2b$10$y.jSYIv/MVbC6JzHOJj3d.CzL3raa0ZClJUkxfcMlalF1mI9S5i4G",
+  "fathersname": "মৃতঃ হাজী আনার উদ্দিন হাওলাদার",
+  "mothersname": "মৃতঃ করিমুন নেসা",
+  "dateofbirth": "০১-০১-১৯৬৫",
+  "occupation": "প্রবাশী",
+  "education": "বি. এ .",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ.. উত্তর মধুখালী, ডাকঘরঃহবিগঞ্জ, থানাঃ মাদারীপুর, জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "078-1654498878335.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T07:01:18.410Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T07:01:18.410Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629da71a8711b64ef01b2f85"
+  },
+  "serial": "079",
+  "engname": "Nazmul Haque",
+  "name": "নাজমুল হক",
+  "email": "na",
+  "mobile": "01915637278",
+  "password": "$2b$10$GtylsGs9XplaCUn71GwMj.4U/bNIQeBEYAaRDAxmd/b/ErGKZ3Haa",
+  "fathersname": "আঃ মান্নান মাতুব্বর",
+  "mothersname": "তাজিয়া বেগম",
+  "dateofbirth": "১২-০৪- ১৯৭২",
+  "occupation": "ব্যবসা",
+  "education": "NA",
+  "nid": "BK-0128138 (পাসপোর্ট)",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ উত্তর দুধখালি,  ডাকঘরঃ দুর্গাবর্দি থানাঃ মাদারীপুর জেলাঃ মাদারীপুর,",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "079-1654499098419.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T07:04:58.494Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T07:04:58.494Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629da7ee8711b64ef01b2f88"
+  },
+  "serial": "080",
+  "engname": "Md. Abul Bashar Hawladar",
+  "name": "মো: আবুল বাসার হওলাদার",
+  "email": "na",
+  "mobile": " ",
+  "password": "$2b$10$Mr1DSf19pdioBRvRwohMEOT0GglUzxpR3fNaP/uQsis4Iujk5M9o.",
+  "fathersname": "মৃতঃ আরিফিন উদ্দিন হাওলাদার",
+  "mothersname": "মৃতঃ মোসাঃ ফাতেমা বেগম",
+  "dateofbirth": "২৫-০৯-১৯৭৬",
+  "occupation": "ব্যবসা",
+  "education": "বি. এ .",
+  "nid": "NA",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "080-1654499310405.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T07:08:30.476Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T07:08:30.476Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629dab568711b64ef01b2f8b"
+  },
+  "serial": "081",
+  "engname": "Md. Jamal Matuubor",
+  "name": "মোঃ জামাল মাতুব্বর",
+  "email": "na",
+  "mobile": "+৮৮০১৭২৭২৬৬৮৪৪ ",
+  "password": "$2b$10$fyWeSK/eQu9BjL5A2PBBh.VF.yMCQJPSF4f2KA1q.RWf/.UU2wivu",
+  "fathersname": "মোঃ মুজাম মাতুব্বর",
+  "mothersname": "জুলেখা বেগম",
+  "dateofbirth": "০১-০১-১৯৮৩",
+  "occupation": "প্রবাশী",
+  "education": "অষ্টম শ্রেণি",
+  "nid": "0999229",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ পূর্ব খৈয়ারভাঙ্গা, ডাকঘরঃমরশেদাবাদ,  থানাঃমাদারীপুর, জেলাঃ মাদারীপুর, মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "081-1654500182627.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T07:23:02.701Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T07:23:02.701Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629dacdb8711b64ef01b2f8e"
+  },
+  "serial": "082",
+  "engname": "Md. Emdad Hossain",
+  "name": "মোঃ এমদাদ হোসেন",
+  "email": "na",
+  "mobile": "+8801718599726",
+  "password": "$2b$10$mh4vHIqud4Gcm9d.VUujeuezLz4Y7SOpyC8Ps4EgJc/g/5.3d5XYy",
+  "fathersname": "মোসলেম খান",
+  "mothersname": "হিলনা",
+  "dateofbirth": "০৭-০২-১৯৮০",
+  "occupation": "ব্যবসা",
+  "education": "NA",
+  "nid": "২৬৯৯০৩৯৬৬৭০৩১",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ হাসান কাড়ি, ডাকঘরঃ লুন্দি,  থানাঃ রাজৈর,  জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "082-1654500571812.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T07:29:31.885Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T07:29:31.885Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629dae028711b64ef01b2f91"
+  },
+  "serial": "083",
+  "engname": "Mst. Nahar",
+  "name": "মোসাঃ নাহার",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$b0KpkuY98tGZzybE1aVJMO.N9v4RCLjbG8OgfxynezQqIYPsqX9xy",
+  "fathersname": "মোঃ ওহার কাজি",
+  "mothersname": "মোসাঃ ছালেহা",
+  "dateofbirth": "০৯-০৮-১৯৮৬",
+  "occupation": "গৃহিণী",
+  "education": "NA",
+  "nid": "২৮৫০০৫০০০২",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দুরখালী, ডাকঘরঃহবিগঞ্জ, থানাঃমাদারীপুর জেলাঃ মাদারীপুর",
+  "nominee": "",
+  "position": "Member",
+  "avatar": "083-1654500866340.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T07:34:26.412Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T07:34:26.412Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629daf508711b64ef01b2f94"
+  },
+  "serial": "084",
+  "engname": "Kobirul Islam",
+  "name": "করিরুল ইসলাম",
+  "email": "na",
+  "mobile": " +8801761625578",
+  "password": "$2b$10$bUb6DJay.CspkjUDhjcm4ucRjYDyzGPnyp33t8m2vE3F54uz2TOLy",
+  "fathersname": "আজাহার মাল",
+  "mothersname": "রাবেয়া বেগম",
+  "dateofbirth": "০১-০১-১৯৬৯",
+  "occupation": "প্রবাশী",
+  "education": "বি. এ .",
+  "nid": "১৯৬৯৫৪১৪০৯৪০০০০০১",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ চর ফতে বাহাদুর.  ডাকঘরঃমিয়ার হাট, থানাঃকালকিনী, জেলাঃ মাদারীপুর",
+  "nominee": "স্বর্ণা আক্তার (স্ত্রী)",
+  "position": "Member",
+  "avatar": "084-1654501200074.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T07:40:00.150Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T07:40:00.150Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629de50e48e367af99869e40"
+  },
+  "serial": "085",
+  "engname": "Golam Mostofa Hawlader",
+  "name": "গোলাম মোস্তফা হাওলাদার",
+  "email": "na",
+  "mobile": "+৮৮০১৭২৬০৫৯৩৮৩ ",
+  "password": "$2b$10$8r/PeSOGWDRcEaVgGt7paOzm0GISu8uH8uUThSUfeIG5rcntoQTgS",
+  "fathersname": "মৃতঃ আঃ মালেক হাওলাদার",
+  "mothersname": "মৃতঃ হাজেরা বেগম",
+  "dateofbirth": "০১-০৪-১৯৬১",
+  "occupation": "চাকুরী",
+  "education": "এইচ , এস , সি",
+  "nid": "0119612650898570334",
+  "currentaddress": "গ্রামঃ কুকরাইল , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ কুকরাইল , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "nominee": "রাশিদা  বেগম (স্ত্রী)",
+  "position": "Member",
+  "avatar": "085-1654514958535.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T11:29:18.665Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T11:29:18.665Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629dfe1448e367af99869e44"
+  },
+  "serial": "086",
+  "engname": "Md. Motiur Rahman",
+  "name": "মোহাম্মদ মতিউর রহমান",
+  "email": "na",
+  "mobile": "+8801715908340, +8801865782122",
+  "password": "$2b$10$sysvapP/W93pNO9AB9Dts.IFqtpHF2Euo8F0NPf0iESbJP/OpH27q",
+  "fathersname": "মোঃ হাবিবুর রহমান মাতুব্বর",
+  "mothersname": "মৃতঃ রহিমা বেগম",
+  "dateofbirth": "৩১-১২-১৯৭৯",
+  "occupation": "প্রবাশী",
+  "education": "এইচ , এস , সি",
+  "nid": "১৯৭৯৫৪১৫৪১৭০০৭৯১৪",
+  "currentaddress": "গ্রামঃ কুকরাইল , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ দক্ষিণ বিরাগল, ডাকঘরঃ ধুরাইল থানাঃ মাদারীপুর জেলাঃমাদারীপুর",
+  "nominee": " জুয়েল মাতুবর, হাফিযুর রাহমান   (ভাই)",
+  "position": "Member",
+  "avatar": "086-1654521364899.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T13:16:04.981Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T13:16:04.981Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629e01aa48e367af99869e47"
+  },
+  "serial": "087",
+  "engname": "Freedom Fighter A. Samad mollah",
+  "name": "বীর মুক্তিযুদ্ধা আঃ ছামাদ মোল্লা",
+  "email": "na",
+  "mobile": "NA",
+  "password": "$2b$10$zatNvsPTo6/aLrkCZz/ueeTi8kU/Rz.1piqpQRJX4fz9L8GNAQep.",
+  "fathersname": "মৃতঃ  মোঃ তাহের মোল্লাহ্",
+  "mothersname": "মৃতঃ লাল মতি",
+  "dateofbirth": "০৭-০৬-১৯৫২",
+  "occupation": "NA",
+  "education": "NA",
+  "nid": "৪১৯৯৬৮৫৪৭২",
+  "currentaddress": "গ্রামঃ কুকরাইল , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ অমেদ  আলী মোল্লা কান্দি  ডাকঘরঃভদ্রাসন  -৭৯৩০ ,  থানাঃ. শিবচর শিবচর , জেলাঃ মাদারীপুর",
+  "nominee": " ",
+  "position": "Member",
+  "avatar": "087-1654522282126.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T13:31:22.199Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T13:31:22.199Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629e03b848e367af99869e4a"
+  },
+  "serial": "088",
+  "engname": "Md. Samsul Haque Miah",
+  "name": "মোঃ শামছুল হক মিয়া",
+  "email": "na",
+  "mobile": "+8801726271090",
+  "password": "$2b$10$ps65roABRMt7nziUF3obJOeVT8wYKHC1K7VNcJWuQ06OVq2bhIlNm",
+  "fathersname": "মরহুম মোঃ আঃরব",
+  "mothersname": "মরহুম হালিমা খাতুন",
+  "dateofbirth": "১২-০১-১৯৬২",
+  "occupation": "চাকুরী (অবসর )",
+  "education": "বি . এস . সি বি , এড",
+  "nid": "৪১৯৩৯৭৪৭৪০",
+  "currentaddress": "গ্রামঃ গোলাবাড়ী , ডাকঘরঃ মাদারীপুর, থানাঃ মাদারীপুর, জেলাঃমাদারীপুর",
+  "permaaddress": "গ্রামঃ থানতলি, ডাকঘরঃ চরমুগরিয়া,  থানাঃ  মাদারীপুর, জেলাঃ মাদারীপুর সদর",
+  "nominee": "রওশন আরা হক্ (স্ত্রী)",
+  "position": "Member",
+  "avatar": "088-1654522808074.jpg",
+  "role": "user",
+  "status": "Active",
+  "comments": "",
+  "createdAt": {
+    "$date": "2022-06-06T13:40:08.145Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-06T13:40:08.145Z"
+  },
+  "__v": 0
+}]

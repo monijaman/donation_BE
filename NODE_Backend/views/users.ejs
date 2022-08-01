@@ -1,0 +1,215 @@
+<%- include('./partials/header.ejs'); %>
+  <div class="manageUser-container">
+    <div id="title">
+      <h2>Manage Users</h2>
+    </div>
+
+
+    <form id="search-container" style="position: relative;">
+      <input type="text" placeholder="search user by name or email or mobile or Serical" name="user" id="user"
+        autocomplete="off" style="width: auto;" />
+      <p class="error"></p>
+      <div class="search_users" style="top:50"></div>
+      <input type="submit" value="Submit" class="hide" />
+    </form>
+
+    <div class="new-message-container new-user">
+      <a href="#" onclick="openModal()">+</a>
+    </div>
+
+    <div id="users-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Manage</th>
+          </tr>
+        </thead>
+        <tbody id="users-table3">
+          <% users.forEach(function(user) { %>
+            <tr  id="<%= user._id %>">
+              <td class="name" onclick="showUserDetail('<%= user._id %>')" >
+                <% if (user.avatar) { %>
+                  <img src="./uploads/ppimg/<%= user.serial %>.jpg" />
+                  <% } else { %>
+                    <img src="./images/nophoto.png" />
+                    <% } %>
+                      <span>
+                        <%= user.name %>
+                      </span>
+              </td>
+              <td>
+                <%= user.email %>
+              </td>
+              <td class="manage">
+                <img src="./images/edit.png" alt="Edit" onclick="updateUser('<%= user._id %>')" />
+                <!-- <img src="./images/trash.png" alt="Delete" onclick="deleteUser('<%= user._id %>')" /> -->
+              </td>
+            </tr>
+            <% }); %>
+        </tbody>
+      </table>
+
+    </div>
+    <div id="userDetails"></div>
+  </div>
+  <%- include('./partials/add-user-modal.ejs'); %>
+
+
+    <script>
+
+      function showUserDetail(userID){
+        window.location.replace('/invoice?id='+userID);
+      }
+      // toasts
+      const deleteToast = Toastify({
+        text: "User was deleted successfully!",
+        duration: 3000,
+      });
+
+      const deleteErrorToast = Toastify({
+        text: "Could not delete the user!",
+        duration: 3000,
+      });
+
+      // delete user function
+      async function deleteUser(userId) {
+        let response = await fetch(`/users/${userId}`, {
+          method: "DELETE",
+        });
+
+        let result = await response.json();
+
+        if (result.errors) {
+          deleteErrorToast.showToast();
+        } else {
+          deleteToast.showToast();
+          document.getElementById(userId).remove();
+        }
+      }
+
+
+
+      let typingTimer;
+      const doneTypingInterval = 500;
+      const input = document.querySelector("input#user");
+      const conversation_list = document.querySelector("#conversation-list");
+      let users_placeholder = document.querySelector(".search_users");
+
+
+      //on keyup, start the countdown
+      input.addEventListener("keyup", function () {
+        clearTimeout(typingTimer);
+        // reset
+        users_placeholder.style.display = "none";
+
+        if (input.value) {
+          typingTimer = setTimeout(searchUsers, doneTypingInterval); //user is "finished typing," send search request
+        }
+      });
+
+      //on keydown, clear the countdown
+      input.addEventListener("keydown", function () {
+        clearTimeout(typingTimer);
+      });
+
+
+      // send request for search
+      async function searchUsers() {
+        let response = await fetch("/inbox/search", {
+          method: "POST",
+          body: JSON.stringify({
+            user: input.value,
+          }),
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+        });
+
+        // get response
+        let result = await response.json();
+
+        // handle error and response
+        if (result.errors) {
+          const errorplaceholder = document.querySelector("p.error");
+
+
+          errorplaceholder.textContent = result.errors.common.msg;
+          errorplaceholder.style.display = "block";
+        } else {
+          if (result.length > 0) {
+            let generatedHtml = "<ul>";
+            result.forEach((user) => {
+              const avatar = user.serial
+                ? "./uploads/ppimg/" + user.serial+".jpg"
+                : "./images/nophoto.png";
+             
+              generatedHtml += `<li onclick="getUser('${user._id}')">
+              <div class="user">
+                <div class="avatar">
+                  <img src="${avatar}" />
+                </div>
+                <div class="username">${user.name}</div>
+              </div>
+            </li>`;
+            });
+            generatedHtml += "</ul>";
+            users_placeholder.innerHTML = generatedHtml;
+            users_placeholder.style.display = "block";
+          }
+        }
+      }
+
+
+      let userDetails = document.getElementById("userDetails");
+     
+      let usersTable = document.getElementById("users-table");
+      
+      // get messages of a conversation
+      async function getUser(userid) {
+
+
+
+
+
+        let response = await fetch(`/users/search/${userid}`);
+        const result = await response.json();
+
+        // handle error and response
+        if (result.errors) {
+          const errorplaceholder = document.querySelector("p.error");
+          errorplaceholder.textContent = result.errors.common.msg;
+          errorplaceholder.style.display = "block";
+        } else {
+          if (result.data.user) {
+
+            let generatedHtml = "<ul>";
+
+            const avatar = result.data.user.serial
+              ? "./uploads/ppimg/" + user.serial+".jpg"
+              : "./images/nophoto.png";
+
+            generatedHtml += `<li>
+              <div class="user">
+                <div class="avatar">
+                  <img src="${avatar}" />
+                </div>
+                <div class="username">${result.data.user.name}</div>
+              </div>
+            </li>`;
+
+            generatedHtml += "</ul>";
+            userDetails.innerHTML = generatedHtml;
+            userDetails.style.display = "block";
+          //  searchUsersDiv.innerHTML = "";
+            users_placeholder.style.display = "none";
+            usersTable.style.display = "none";
+            
+          }
+        }
+      }
+    </script>
+    </body>
+
+    </html>

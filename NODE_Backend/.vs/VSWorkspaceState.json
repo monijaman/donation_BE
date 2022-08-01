@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\middlewares",
+    "\\middlewares\\common",
+    "\\middlewares\\users",
+    "\\models",
+    "\\public",
+    "\\public\\js",
+    "\\router",
+    "\\views",
+    "\\views\\partials"
+  ],
+  "SelectedNode": "\\controller\\loginController.js",
+  "PreviewInSolutionExplorer": false
+}
