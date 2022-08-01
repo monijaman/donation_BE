@@ -1,6 +1,6 @@
-# Project Title
+# Donation Management Backend
 
-Donation BACKEND
+Admin panel and API for frontend
 
 ---
 
