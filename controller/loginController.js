@@ -25,7 +25,11 @@ async function login(req, res, next) {
         user.password
       );
 
+
+
       if (isValidPassword) {
+
+
         // prepare the user object to generate token
         const userObject = {
           userid: user._id,
@@ -40,7 +44,6 @@ async function login(req, res, next) {
           expiresIn: process.env.JWT_EXPIRY,
         });
 
-        // set cookie
         res.cookie(process.env.COOKIE_NAME, token, {
           maxAge: process.env.JWT_EXPIRY,
           httpOnly: true,
@@ -49,7 +52,7 @@ async function login(req, res, next) {
 
         // set logged in user local identifier
         res.locals.loggedInUser = userObject;
-
+        console.log(55555)
         res.redirect("inbox");
       } else {
         throw createError("Login failed! Please try again.");

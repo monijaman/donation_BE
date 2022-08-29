@@ -8,7 +8,7 @@ const DonationSchema = mongoose.Schema(
         },
         payment:
         {
-            type: Number, min: 200, max: 2400, trim: true
+            type: Number, min: 200, max: 6400, trim: true
         },
 
         paymenttype: {

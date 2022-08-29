@@ -47,7 +47,7 @@ mongoose
   .then(() => console.log("database connection successful!"))
   .catch((err) => console.log(err));
 
-  app.use(cors({ credentials: true }))
+app.use(cors({ credentials: true }))
 app.use(bodyParser.json());       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: false
@@ -76,8 +76,8 @@ app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
 // parse cookies
+// app.use(cookieParser("cookiesecret"));
 app.use(cookieParser(process.env.COOKIE_SECRET));
-
 // routing setup
 app.use("/", loginRouter);
 app.use("/users", usersRouter);
@@ -105,7 +105,7 @@ if (process.env.NODE_ENV === 'production') {
     )
   );
 } else {
-   app.get('/', (req, res) => res.send('Please set to production'));
+  app.get('/', (req, res) => res.send('Please set to production'));
 }
 
 
