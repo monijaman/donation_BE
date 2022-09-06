@@ -24,7 +24,7 @@ async function invoice(req, res, next) {
 
 
 
-
+        let restPeyment;
         const member_id = ObjectId(req.query.id);
 
         let countDonation = await Donation.aggregate([
@@ -55,6 +55,7 @@ async function invoice(req, res, next) {
         }).limit(100).sort({ $natural: -1 });
 
 
+
         const lastDonation = await Donation.findOne({
             member_id: req.query.id,
             paymenttype: 'Monthly'
@@ -63,11 +64,20 @@ async function invoice(req, res, next) {
 
         const users = await User.find();
 
+        let installAmount = process.env.MONTHLY_PAYMENT;
+
+        if (countDonation.length > 0) {
+            restPeyment = (countDonation[0]['totalAmount'] % installAmount)
+        }
+
+
+
         res.render("donations", {
             user: user,
             installments: installments,
             lastDonation: lastDonation,
-            donation: countDonation
+            donation: countDonation,
+            restAmount: restPeyment
         });
     } catch (err) {
         next(err);
@@ -87,6 +97,9 @@ async function addDonnation(req, res, next) {
 
 
     if (req.body.paymenttype == 'Monthly') {
+
+
+
 
         if (req.body.payment % installAmount != 0) {
             let errormsg = 'You should input 200 or multipy by 200'
@@ -111,7 +124,7 @@ async function addDonnation(req, res, next) {
 
         if (donation == null) {
             durDate = new Date(paymentmonth);
-            durDate.setMonth(durDate.getMonth() + monthCount)
+            durDate.setMonth(durDate.getMonth())
 
 
         } else {

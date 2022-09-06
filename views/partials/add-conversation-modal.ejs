@@ -108,7 +108,7 @@
   // create Conversation
   async function createConversation(participant_id, name, avatar) {
     try {
-      const response = await fetch("/users/getUser/", {
+      const response = await fetch("/inbox/conversation", {
         method: "POST",
         body: JSON.stringify({
           participant: name,

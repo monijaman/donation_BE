@@ -51,7 +51,7 @@ async function searchUser(req, res, next) {
             },
           ],
         },
-        "name avatar serial"
+        "name avatar mobile serial"
       );
 
       res.json(users);

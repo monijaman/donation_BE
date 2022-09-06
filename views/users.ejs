@@ -21,27 +21,32 @@
       <table>
         <thead>
           <tr>
+            <th> </th>
             <th>Name</th>
-            <th>Email</th>
+            <th>Mobile</th>
             <th>Manage</th>
           </tr>
         </thead>
         <tbody id="users-table3">
-          <% users.forEach(function(user) { %>
+          <% users.forEach(function(user) {                        
+            %>
+
+          
+
             <tr  id="<%= user._id %>">
               <td class="name" onclick="showUserDetail('<%= user._id %>')" >
-                <% if (user.avatar) { %>
-                  <img src="./uploads/ppimg/<%= user.serial %>.jpg" />
-                  <% } else { %>
-                    <img src="./images/nophoto.png" />
-                    <% } %>
-                      <span>
-                        <%= user.name %>
-                      </span>
+
+                <img class="imgSerial<%= user.serial %>" src="./uploads/ppimg/<%= user.serial %>.jpg" />
+                
+                
               </td>
               <td>
-                <%= user.email %>
+                <%= user.name %>
               </td>
+              <td>
+                <%= user.mobile %>
+              </td>
+
               <td class="manage">
                 <img src="./images/edit.png" alt="Edit" onclick="updateUser('<%= user._id %>')" />
                 <!-- <img src="./images/trash.png" alt="Delete" onclick="deleteUser('<%= user._id %>')" /> -->
@@ -60,6 +65,7 @@
     <script>
 
       function showUserDetail(userID){
+        
         window.location.replace('/invoice?id='+userID);
       }
       // toasts
@@ -96,7 +102,7 @@
       const input = document.querySelector("input#user");
       const conversation_list = document.querySelector("#conversation-list");
       let users_placeholder = document.querySelector(".search_users");
-
+      let tablePlace =document.querySelector("#users-table3");
 
       //on keyup, start the countdown
       input.addEventListener("keyup", function () {
@@ -113,6 +119,8 @@
       input.addEventListener("keydown", function () {
         clearTimeout(typingTimer);
       });
+
+     
 
 
       // send request for search
@@ -139,25 +147,43 @@
           errorplaceholder.style.display = "block";
         } else {
           if (result.length > 0) {
-            let generatedHtml = "<ul>";
+            let generatedHtml = "";
             result.forEach((user) => {
-              const avatar = user.serial
-                ? "./uploads/ppimg/" + user.serial+".jpg"
-                : "./images/nophoto.png";
              
-              generatedHtml += `<li onclick="getUser('${user._id}')">
-              <div class="user">
-                <div class="avatar">
-                  <img src="${avatar}" />
-                </div>
-                <div class="username">${user.name}</div>
-              </div>
-            </li>`;
+              let avatar = `./uploads/ppimg/nophoto.jpg`
+
+              if(checkImage(`./uploads/ppimg/${user.serial}.jpg`)){
+              avatar =` ./uploads/ppimg/${user.serial}.jpg`
+              } 
+              
+               
+
+                generatedHtml += `   
+            <tr  id="${user._id}">
+              <td class="name" onclick="showUserDetail('${user._id}')" >
+                <img src="${avatar}" />
+              </td>
+              <td onclick="showUserDetail('${user._id}')" >
+                ${user.name}  
+              </td>
+              <td onclick="showUserDetail('${user._id}')" >
+                  ${user.mobile}
+              </td>
+              <td class="manage">
+                <img src="./images/edit.png" alt="Edit"   />
+                <!-- <img src="./images/trash.png" alt="Delete" onclick="deleteUser('${user._id}')" /> -->
+              </td>
+            </tr> `;
+           
+
+            
             });
-            generatedHtml += "</ul>";
-            users_placeholder.innerHTML = generatedHtml;
+            
+            tablePlace.innerHTML = generatedHtml;
             users_placeholder.style.display = "block";
           }
+
+          showDetalLister()
         }
       }
 
@@ -165,14 +191,26 @@
       let userDetails = document.getElementById("userDetails");
      
       let usersTable = document.getElementById("users-table");
-      
+
+      const showDetalLister = () =>{
+      var buttons = document.querySelectorAll('.btn-click-me');
+        for (var i = 0; i < buttons.length; i++) {
+            var self = buttons[i];
+
+            self.addEventListener('click', function (event) {  
+                // prevent browser's default action
+                event.preventDefault();
+              console.log(11)
+                // call your awesome function here
+                showUserDetail(this); // 'this' refers to the current button on for loop
+            }, false);
+        }
+
+      }     
       // get messages of a conversation
       async function getUser(userid) {
 
-
-
-
-
+ 
         let response = await fetch(`/users/search/${userid}`);
         const result = await response.json();
 
@@ -186,9 +224,13 @@
 
             let generatedHtml = "<ul>";
 
-            const avatar = result.data.user.serial
-              ? "./uploads/ppimg/" + user.serial+".jpg"
-              : "./images/nophoto.png";
+              let avatar = `./uploads/nophoto.jpg`
+
+           if(checkImage(`./uploads/ppimg/${result.data.user.serial}.jpg`)){
+            avatar =` ./uploads/ppimg/${result.data.user.serial}.jpg`
+           } 
+            
+        
 
             generatedHtml += `<li>
               <div class="user">
@@ -206,6 +248,26 @@
             users_placeholder.style.display = "none";
             usersTable.style.display = "none";
             
+          }
+        }
+      }
+
+      async function checkImage(url) {
+        var request = new XMLHttpRequest();
+        request.open("GET", url, true);
+        request.send();
+        request.onload = function() {
+          status = request.status;
+           
+          if (request.status == 200) //if(statusText == OK)
+          {
+           
+            return true
+           
+          } else {
+           
+            return false;
+           
           }
         }
       }

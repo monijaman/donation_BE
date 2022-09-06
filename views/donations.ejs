@@ -139,7 +139,9 @@
     <script>
 
       const lastpatmnt = "<%= lastDonation.paymentdone %>";
+      const restAmount = "<%= restAmount %>";
 
+     
       if (lastpatmnt != null) {
         let lastPayment = new Date(lastpatmnt);
         let currentDate = new Date()
@@ -148,8 +150,11 @@
           currentDate.getMonth() +
           12 * (lastPayment.getFullYear() - currentDate.getFullYear());
 
+          const realDue = (Math.abs(dueMonth) * 200) - restAmount;
+         
+
         if (dueMonth < 0) {
-          dueMonth = "You have " + dueMonth + " Months (" + dueMonth * 200 + "TK) Due"
+          dueMonth = "You have " + dueMonth + " Months (" + realDue + "TK) Due"
         } else {
           dueMonth = "No Due. Your Already paid for +" + dueMonth + " Months"
         }

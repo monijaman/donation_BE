@@ -76,14 +76,14 @@ app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
 // parse cookies
-// app.use(cookieParser("cookiesecret"));
-app.use(cookieParser(process.env.COOKIE_SECRET));
+app.use(cookieParser("chagneit"));
+// app.use(cookieParser(process.env.COOKIE_SECRET));
 // routing setup
 app.use("/", loginRouter);
 app.use("/users", usersRouter);
 app.use("/inbox", inboxRouter);
 app.use("/invoice", invoiceRouter);
-app.use('/api/goals', apiGoalRouter);
+// app.use('/api/goals', apiGoalRouter);
 app.use('/api/donations/', apiDonationRouter);
 app.use('/api/users', apiUserRouter);
 
