@@ -5,6 +5,113 @@ const path = require("path");
 
 // internal imports
 const User = require("../models/People");
+const Donation = require("../models/Donation");
+const { pipeline } = require("stream");
+// get users page
+async function getUsersWithPayment(req, res, next) {
+
+  try {
+    // const users = await User.find();
+    // res.render("users", {
+    //   users: users,
+    // });
+    // const users = new User();
+
+
+    const data = User.aggregate([{
+      $lookup: {
+        from: "donations", // collection name in db
+        localField: "_id",
+        foreignField: "member_id",
+        as: "dataset"
+      }
+    },
+    // {
+    //   $unwind: {
+    //     path: "$dataset",
+    //     preserveNullAndEmptyArrays: true
+    //   },
+
+    // },
+    {
+      $sort: {
+        'dataset.createdAt': -1
+      }
+    }, { "$limit": 10 }
+      // {
+      //   $group: {
+      //     _id: null,
+      //     dataset: {
+      //       $push: "$dataset.member_id"
+      //     }
+      //   }
+      // }
+    ]).exec(function (err, results) {
+
+      // results.forEach(element => {
+      //   console.log(element.dataset)
+      // });
+      console.log(results)
+      res.render("users", {
+        users: results,
+      });
+    })
+
+    let dataset = []
+    //  const aggregate = User.aggregate([{ $match: { serial: { $gte: 70 } } }]);
+    let pipeline = [{
+      //  { $match: { "role": "admin" } },
+      $project: {
+        "username": "$serial", engname: 1,
+      }
+      // { $limit: 2 }, { $skip: 1 }
+    }]
+
+    // let dataset;
+    const aggregate = User.aggregate(pipeline).exec(function (err, results) {
+      // console.log(results);
+      //  dataset.push(results)
+    });
+
+    /*   let restPeyment;
+       const member_id = "62976da51c54ff219f956e49";
+       let countDonation = await Donation.aggregate([
+         //    { $match: { member_id: member_id } },
+         { $match: { $and: [{ member_id: { $eq: member_id } }, { paymenttype: { $eq: "Monthly" } }] } },
+         {
+           $group: {
+             // Each `_id` must be unique, so if there are multiple
+             // documents with the same age, MongoDB will increment `count`.
+             _id: null,
+             totalAmount: { $sum: "$payment" },
+           }
+         },
+         { "$limit": 1 }
+       ]);*/
+
+    // console.log(countDonation)
+    // User.find();
+    //   console.log(aggregate)
+
+
+    // const data = User.aggregate([{
+    //   $lookup: {
+    //     from: "donations", // collection name in db
+    //     localField: "peoples._id",
+    //     foreignField: "member_id",
+    //     as: "dataset"
+    //   }
+    // }]).exec(function (err, results) {
+    //   console.log(results);
+    // });
+
+    // console.log(results)
+  } catch (err) {
+    next(err);
+  }
+
+
+}
 
 // get users page
 async function getUsers(req, res, next) {
@@ -162,6 +269,7 @@ async function searchUsers(req, res, next) {
 }
 
 module.exports = {
+  getUsersWithPayment,
   getUsers,
   addUser,
   removeUser,

@@ -24,27 +24,43 @@
             <th> </th>
             <th>Name</th>
             <th>Mobile</th>
+            <th>Last Payment</th>
             <th>Manage</th>
           </tr>
         </thead>
         <tbody id="users-table3">
           <% users.forEach(function(user) {                        
+            
             %>
 
+            
           
-
+            
             <tr  id="<%= user._id %>">
               <td class="name" onclick="showUserDetail('<%= user._id %>')" >
 
                 <img class="imgSerial<%= user.serial %>" src="./uploads/ppimg/<%= user.serial %>.jpg" />
                 
+              
                 
               </td>
-              <td>
+              <td>  %>
                 <%= user.name %>
               </td>
-              <td>
+              <td>  %>
                 <%= user.mobile %>
+              </td>
+              <td>
+
+                <% if (user.dataset.length> 0) { %>
+                  <% let lastData = user.dataset.slice(-1).pop()  %>
+                  <%=  lastData.payment  %>TK Paid  
+                  <%=  moment(lastData.createdAt).fromNow()  %>
+                  
+               <%}%>
+             
+               
+               
               </td>
 
               <td class="manage">

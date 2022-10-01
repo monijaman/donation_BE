@@ -4,6 +4,7 @@ const { check } = require("express-validator");
 
 // internal imports
 const {
+  getUsersWithPayment,
   getUsers,
   addUser,
   removeUser,
@@ -23,10 +24,11 @@ const router = express.Router();
 // users page
 router.get(
   "/",
-  decorateHtmlResponse("Users"),
+  decorateHtmlResponse("Users Page"),
   checkLogin,
   requireRole(["admin"]),
-  getUsers
+  getUsersWithPayment,
+  // getUsers
 );
 
 
