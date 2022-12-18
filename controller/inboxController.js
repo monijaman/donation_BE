@@ -6,7 +6,7 @@ const Conversation = require("../models/Conversation");
 const Message = require("../models/Message");
 const escape = require("../utilities/escape");
 
-// get inbox page
+// get inbox page 
 async function getInbox(req, res, next) {
   try {
     const conversations = await Conversation.find({
