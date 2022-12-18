@@ -1,11 +1,11 @@
 {
-  "name": "OvibasonSamitee",
+  "name": "Ovibason Samitee",
   "version": "0.0.0",
   "description": "Ovibaso Somitiee",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
-    "start": "NODE_ENV=development mode server.js",
+    "start": "NODE_ENV=development nodemon server.js",
     "prod": "NODE_ENV=production mode server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently npm run server npm run client"

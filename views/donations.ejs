@@ -5,7 +5,7 @@
 
   <div class="manageUser-container">
     <div id="title">
-      <h2>Add Donation</h2>
+      <h2>Search User</h2>
     </div>
 
     <form id="search-container" style="position: relative;">
@@ -20,7 +20,7 @@
       <div class="usrcontainer">
         <div class="leftUsrBlk">
 
-          <img style="max-width: 150px;" src="./uploads/ppimg/<%= user.serial %>.jpg" />
+          <img style="max-width: 100px;" src="./uploads/ppimg/<%= user.serial %>.jpg" />
         </div>
         <div class="rightUsrBlk usrBlock">
 
@@ -34,7 +34,7 @@
 
           <h4>Phone: <%= user.mobile %>
           </h4>
-          <h4>Address: <%= user.currentaddress %>
+          <!-- <h4>Address: <%= user.currentaddress %> -->
           </h4>
 
 
@@ -46,14 +46,16 @@
 
       <div class="usrBlock">
         <% if(lastDonation){ %>
-          <h4>Donation Till: <%= lastDonation.paymentdone.toLocaleDateString(); %>
+          
+          <h4>শেষ চাঁদার   মাস  : <span id="lastDonatedMonth"></span>  
           </h4>
 
-          <h4>Donation Status: <span id=dueMonth></span> </h4>
-          <h4>Total Donation: <%= donation[0]['totalAmount'] %>TK. </h4>
+          <h4> <span id=dueMonth></span> </h4>
+          --------------------------------------
+          <h4>টোটাল চাঁদা : <%= donation[0]['totalAmount'] %> টাকা</h4>
           <% }else { %>
 
-            <h4>No Donation made yet</h4>
+            <h4>কোন চাঁদা দেয়া  হয়নি </h4>
             <% } %>
       </div>
       <% } %>
@@ -142,25 +144,37 @@
       const restAmount = "<%= restAmount %>";
 
      
+
       if (lastpatmnt != null) {
         let lastPayment = new Date(lastpatmnt);
         let currentDate = new Date()
-
+        let month = currentDate.toLocaleString('default', { month: 'long' });
         let dueMonth = lastPayment.getMonth() -
           currentDate.getMonth() +
           12 * (lastPayment.getFullYear() - currentDate.getFullYear());
 
           const realDue = (Math.abs(dueMonth) * 200) - restAmount;
-         
 
-        if (dueMonth < 0) {
-          dueMonth = "You have " + dueMonth + " Months (" + realDue + "TK) Due"
-        } else {
-          dueMonth = "No Due. Your Already paid for +" + dueMonth + " Months"
-        }
+          if (dueMonth < 0) {
+            dueStatusStr = "আপনার   "+ month +" মাস পর্যন্ত   -" + realDue + " টাকা চাঁদা বাকি আছে | (" + dueMonth + " মাস বাকি )"
+          } else if(dueMonth>0){
+            
+            dueStatusStr = "কোন চাঁদা বাকি নেই . আপনি অগ্রিম    +" + dueMonth + " মাসের চাঁদা দিয়েছেন"
+          }else {
+
+            dueStatusStr = "কোন চাঁদা বাকি নেই . "
+          }
+              
+
+          lastDonatedMonth = new Date(lastpatmnt)
+                .toLocaleDateString('en-GB', {   month:"long",   year:"numeric"}) 
+
+  
+        
 
         //document.getElementById("dueMonth").textContent(dueMonth)
-        document.getElementById("dueMonth").textContent = dueMonth;
+        document.getElementById("dueMonth").textContent = dueStatusStr;
+        document.getElementById("lastDonatedMonth").textContent = lastDonatedMonth;
       }
 
     </script>
