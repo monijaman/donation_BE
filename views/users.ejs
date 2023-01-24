@@ -51,15 +51,25 @@
                 <%= user.mobile %>
               </td>
               <td>
+                
 
+                
+             
+             
+              
                 <% if (user.dataset.length> 0) { %>
                   <% let lastData = user.dataset.slice(-1).pop()  %>
-                  <%=  lastData.payment  %>TK Paid  
-                  <%=  moment(lastData.createdAt).fromNow()  %>
+                  
+                  <% if(lastData.paymenttype=='yearlydeduct'){ %>
+                  <span style="color: red;">Yearly <%= lastData.payment %> TK Deducted</span> 
+                   
+                  <% } %>
+               <% }  else if (user.paymenttype ==  "yearlydeduct") { %>
+                <% let lastData = user.dataset.slice(-1).pop()  %>
+                <%=  lastData.payment  %>TK Deducted   
+                <%=  moment(lastData.createdAt).fromNow()  %>
                   
                <%}%>
-             
-               
                
               </td>
 

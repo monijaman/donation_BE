@@ -839,8 +839,17 @@ input[type="submit"]:active {
     padding: 1rem;
     height: 87vh;
   }
+  #users-table tbody .name,
+  .menu{
+    flex-direction: column;
+    height: auto;
+  }
 
-  
+  .menu-item{
+    padding: 5px;
+    font-size: 1.7em;
+    text-align: center;
+  }
   /* .tableData tbody td:nth-child(2),
   .tableData thead th:nth-child(2),
   #users-table tbody td:nth-child(2),

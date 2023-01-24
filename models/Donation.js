@@ -14,7 +14,7 @@ const DonationSchema = mongoose.Schema(
         paymenttype: {
             type: String,
             required: true,
-            enum: ["Monthly", "Event", "Donation", "Other"],
+            enum: ["Monthly", "Event", "Donation", "yearlydeduct", "Other"],
             trim: true
         },
         paymentdone:
@@ -22,6 +22,10 @@ const DonationSchema = mongoose.Schema(
             type: Date,
             //timezone: "Asia/Dhaka",
             //required: true
+        },
+        nameofyear:
+        {
+            type: Number
         },
 
         comments: {

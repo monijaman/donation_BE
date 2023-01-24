@@ -13,10 +13,16 @@ const {
   searchUser,
   invoice,
   addDonnation,
-  removeDonation
+  removeDonation,
+  deductYearlyDonnation
 } = require("../controller/invoiceController");
 
 
+router.get("/yearlydonation/",
+  decorateHtmlResponse("Donation"),
+  checkLogin,
+  deductYearlyDonnation
+);
 
 
 // add user

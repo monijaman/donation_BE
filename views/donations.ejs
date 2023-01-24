@@ -50,9 +50,13 @@
           <h4>শেষ চাঁদার   মাস  : <span id="lastDonatedMonth"></span>  
           </h4>
 
+
           <h4> <span id=dueMonth></span> </h4>
-          --------------------------------------
-          <h4>টোটাল চাঁদা : <%= donation[0]['totalAmount'] %> টাকা</h4>
+       
+          <h4>টোটাল চাঁদা : <%= donation %> টাকা</h4>
+
+ 
+
           <% }else { %>
 
             <h4>কোন চাঁদা দেয়া  হয়নি </h4>
@@ -117,7 +121,11 @@
               <tr id="<%= installment._id %>">
 
                 <td>
-                  <%= installment.payment %>TK
+                  <% if (installment.paymenttype=='yearlydeduct') { %>
+                    <span style="color: red;">Yearly <%= installment.payment %> TK Deducted</span> 
+                  <% }else {  %>
+                    <%= installment.payment %>TK
+                  <% } %>
                 </td>
                 <td>
                   <%= new Date(installment.paymentdone).toLocaleDateString("en-US"); %>
