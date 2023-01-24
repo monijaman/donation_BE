@@ -10,7 +10,6 @@ const {
   removeUser,
   searchUser
 } = require("../controller/usersController");
-
 const decorateHtmlResponse = require("../middlewares/common/decorateHtmlResponse");
 const avatarUpload = require("../middlewares/users/avatarUpload");
 const {

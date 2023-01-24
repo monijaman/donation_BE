@@ -37,7 +37,7 @@ async function getUsersWithPayment(req, res, next) {
       $sort: {
         'dataset.createdAt': -1
       }
-    }, { "$limit": 10 }
+    }, { "$limit": 100 }
       // {
       //   $group: {
       //     _id: null,

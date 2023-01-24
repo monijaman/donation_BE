@@ -77,12 +77,13 @@ async function invoice(req, res, next) {
         const users = await User.find();
 
         let installAmount = process.env.MONTHLY_PAYMENT;
-
+        let totDonation = 0;
         if (countDonation.length > 0) {
+            totDonation = countDonation[0]['totalAmount'];
             restPeyment = (countDonation[0]['totalAmount'] % installAmount)
         }
 
-        let totDonation = countDonation[0]['totalAmount'];
+
         if (countDonation.length > 0 && countCost.length > 0) {
             totDonation = countDonation[0]['totalAmount'] - countCost[0]['totalAmount'];
         }
