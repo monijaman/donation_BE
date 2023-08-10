@@ -1,6 +1,8 @@
 Node / Express powered site
 Live Demo:  (https://ovivabokadmin.onrender.com/)
 
+This is a donation management site done in Node/Express.
+
 # Donation Management Backend
 
 Admin panel and API for frontend (https://myovibason.herokuapp.com/)
